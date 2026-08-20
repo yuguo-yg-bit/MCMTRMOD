@@ -15,7 +15,7 @@
           "default": "geometry.mtr.empty"
         },
         "textures": {
-          "default": "textures/entity/empty"
+          "default": "textures/block/black"
         },
         "render_controllers": [
           "controller.render.default"
@@ -2103,6 +2103,94 @@
         },
         "textures": {
           "default": "textures/entity/rail_siding"
+        }
+      }
+    }
+  },
+  "mtr:airplane": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.airplane.move",
+          "door": "animation.mtr.airplane.door"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door"
+          ]
+        },
+        "identifier": "mtr:airplane",
+        "geometry": {
+          "default": "geometry.a320"
+        },
+        "textures": {
+          "default": "textures/entity/a320"
+        }
+      }
+    }
+  },
+  "mtr:cable_car": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.cable_car"
+        ],
+        "animations": {
+          "move": "animation.mtr.cable_car.move",
+          "door": "animation.mtr.cable_car.door"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door"
+          ]
+        },
+        "identifier": "mtr:cable_car",
+        "geometry": {
+          "default": "geometry.cable_car_grip"
+        },
+        "textures": {
+          "default": "textures/entity/cable_car_grip"
+        }
+      }
+    }
+  },
+  "mtr:boat_vehicle": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.boat"
+        ],
+        "animations": {
+          "move": "animation.mtr.boat.move",
+          "door": "animation.mtr.boat.door"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door"
+          ]
+        },
+        "identifier": "mtr:boat_vehicle",
+        "geometry": {
+          "default": "geometry.boat_medium"
+        },
+        "textures": {
+          "default": "textures/entity/boat"
         }
       }
     }

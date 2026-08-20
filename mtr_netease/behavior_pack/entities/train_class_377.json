@@ -3,8 +3,8 @@
   "minecraft:entity": {
     "description": {
       "identifier": "mtr:train_class_377",
-      "is_spawnable": false,
-      "is_summonable": false,
+      "is_spawnable": true,
+      "is_summonable": true,
       "is_experimental": false
     },
     "components": {

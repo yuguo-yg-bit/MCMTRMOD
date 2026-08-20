@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mtr:station_color",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:hand_equipped": false,
+      "minecraft:icon": "station_color",
+      "minecraft:display_name": {
+        "value": "Station Color"
+      }
+    }
+  }
+}

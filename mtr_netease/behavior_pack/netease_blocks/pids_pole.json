@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mtr:pids_pole",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:destroy_time": {
+        "value": 1.5
+      },
+      "minecraft:explosion_resistance": {
+        "value": 6.0
+      },
+      "netease:aabb": {
+        "collision": {
+          "min": [
+            0.46875,
+            0.0,
+            0.78125
+          ],
+          "max": [
+            0.53125,
+            1.0,
+            0.84375
+          ]
+        },
+        "clip": {
+          "min": [
+            0.46875,
+            0.0,
+            0.78125
+          ],
+          "max": [
+            0.53125,
+            1.0,
+            0.84375
+          ]
+        }
+      },
+      "minecraft:block_light_absorption": {
+        "value": 0
+      },
+      "netease:block_entity": {
+        "tick": true
+      }
+    }
+  }
+}

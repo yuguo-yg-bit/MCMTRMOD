@@ -1,0 +1,150 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.mtr.clock",
+        "texture_width": 64,
+        "texture_height": 64
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -0.3125,
+                0.0,
+                -0.125
+              ],
+              "size": [
+                0.625,
+                0.0312,
+                0.25
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -0.3125,
+                0.5938,
+                -0.125
+              ],
+              "size": [
+                0.625,
+                0.1562,
+                0.25
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -0.3125,
+                0.5938,
+                -0.1281
+              ],
+              "size": [
+                0.625,
+                0.1562,
+                0.2563
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -0.3125,
+                0.0,
+                -0.125
+              ],
+              "size": [
+                0.0312,
+                0.75,
+                0.25
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                0.2812,
+                0.0,
+                -0.125
+              ],
+              "size": [
+                0.0312,
+                0.75,
+                0.25
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -0.2812,
+                0.0312,
+                -0.0938
+              ],
+              "size": [
+                0.5625,
+                0.5625,
+                0.1875
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -0.0312,
+                0.75,
+                -0.0312
+              ],
+              "size": [
+                0.0625,
+                0.25,
+                0.0625
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

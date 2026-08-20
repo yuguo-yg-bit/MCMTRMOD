@@ -1,0 +1,78 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.bogie_2",
+				"texture_width": 98,
+				"texture_height": 58
+			},
+			"bones": [
+				{
+					"name": "bogie",
+					"pivot": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"cubes": [
+						{
+							"origin": [
+								0.3125,
+								-0.875,
+								-2.0
+							],
+							"size": [
+								0.0625,
+								0.625,
+								3.0
+							],
+							"uv": [
+								0,
+								0
+							],
+							"mirror": false,
+							"inflate": 0.0
+						},
+						{
+							"origin": [
+								0.25,
+								-0.96875,
+								0.25
+							],
+							"size": [
+								0.0625,
+								0.625,
+								0.625
+							],
+							"uv": [
+								0,
+								0
+							],
+							"mirror": false,
+							"inflate": 0.0
+						},
+						{
+							"origin": [
+								0.25,
+								-0.96875,
+								-1.875
+							],
+							"size": [
+								0.0625,
+								0.625,
+								0.625
+							],
+							"uv": [
+								0,
+								0
+							],
+							"mirror": false,
+							"inflate": 0.0
+						}
+					]
+				}
+			]
+		}
+	]
+}

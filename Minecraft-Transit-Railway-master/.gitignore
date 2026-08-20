@@ -1,0 +1,56 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+generated/
+loot_tables/
+**/org/mtr/mixin/
+fabric/logs
+forge/src/main/java/org/mtr/core
+forge/src/main/java/org/mtr/legacy
+forge/src/main/java/org/mtr/mod
+forge/src/main/resources/assets
+forge/src/main/resources/data
+forge/src/main/resources/META-INF
+**/website/src/app/entity/generated
+**/website/.gitignore
+fabric.mod.json
+mtr.accesswidener
+Keys.java
+Patreon.java
+JadeConfig.java
+WthitConfig.java
+wthit_plugins.json
+mtr_custom_resources.json
+**/font/mtr.json
+**/lang/*.json
+!en_us.json

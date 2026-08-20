@@ -1,0 +1,324 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.door_overlay",
+				"texture_width": 38,
+				"texture_height": 32
+			},
+			"bones": [
+				{
+					"name": "door_left_overlay_interior",
+					"pivot": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"cubes": [
+						{
+							"origin": [
+								0.73125,
+								0.0625,
+								-0.5
+							],
+							"size": [
+								0.0,
+								0.8125,
+								1.0
+							],
+							"uv": [
+								3,
+								3
+							],
+							"mirror": false,
+							"inflate": 0.0
+						},
+						{
+							"origin": [
+								0.73125,
+								0.875,
+								-0.5
+							],
+							"size": [
+								0.0,
+								1.1875,
+								1.0
+							],
+							"uv": [
+								3,
+								-16
+							],
+							"mirror": false,
+							"inflate": 0.0,
+							"rotation": [
+								0,
+								0,
+								6.34
+							],
+							"pivot": [
+								0.73125,
+								0.875,
+								-0.5
+							]
+						}
+					]
+				},
+				{
+					"name": "door_right_overlay_interior",
+					"pivot": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1.73125,
+								0.0625,
+								-0.5
+							],
+							"size": [
+								0.0,
+								0.8125,
+								1.0
+							],
+							"uv": [
+								3,
+								3
+							],
+							"mirror": false,
+							"inflate": 0.0,
+							"rotation": [
+								0,
+								-180,
+								0
+							],
+							"pivot": [
+								-0.5,
+								0.0,
+								-0.5
+							]
+						},
+						{
+							"origin": [
+								0.73125,
+								0.875,
+								-0.5
+							],
+							"size": [
+								0.0,
+								1.1875,
+								1.0
+							],
+							"uv": [
+								3,
+								-16
+							],
+							"mirror": false,
+							"inflate": 0.0,
+							"rotation": [
+								0,
+								-180,
+								6.34
+							],
+							"pivot": [
+								0.73125,
+								0.875,
+								-0.5
+							]
+						}
+					]
+				},
+				{
+					"name": "door_left_overlay_exterior",
+					"pivot": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"cubes": [
+						{
+							"origin": [
+								0.79375,
+								0.875,
+								-0.5
+							],
+							"size": [
+								0.0,
+								1.1875,
+								1.0
+							],
+							"uv": [
+								3,
+								-16
+							],
+							"mirror": false,
+							"inflate": 0.0,
+							"rotation": [
+								0,
+								0,
+								6.34
+							],
+							"pivot": [
+								0.79375,
+								0.875,
+								-0.5
+							]
+						}
+					]
+				},
+				{
+					"name": "door_right_overlay_exterior",
+					"pivot": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"cubes": [
+						{
+							"origin": [
+								0.79375,
+								0.875,
+								-0.5
+							],
+							"size": [
+								0.0,
+								1.1875,
+								1.0
+							],
+							"uv": [
+								3,
+								-16
+							],
+							"mirror": false,
+							"inflate": 0.0,
+							"rotation": [
+								0,
+								-180,
+								6.34
+							],
+							"pivot": [
+								0.79375,
+								0.875,
+								-0.5
+							]
+						}
+					]
+				},
+				{
+					"name": "wall_1",
+					"pivot": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"cubes": [
+						{
+							"origin": [
+								0.5625,
+								0.0625,
+								-0.49375
+							],
+							"size": [
+								0.1875,
+								0.8125,
+								0.0
+							],
+							"uv": [
+								32,
+								19
+							],
+							"mirror": false,
+							"inflate": 0.0
+						},
+						{
+							"origin": [
+								0.5625,
+								0.875,
+								-0.49375
+							],
+							"size": [
+								0.1875,
+								1.1875,
+								0.0
+							],
+							"uv": [
+								32,
+								0
+							],
+							"mirror": false,
+							"inflate": 0.0,
+							"rotation": [
+								0,
+								0,
+								6.34
+							],
+							"pivot": [
+								0.75,
+								0.875,
+								-0.5
+							]
+						}
+					]
+				},
+				{
+					"name": "wall_2",
+					"pivot": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"cubes": [
+						{
+							"origin": [
+								0.5625,
+								0.0625,
+								-0.50625
+							],
+							"size": [
+								0.1875,
+								0.8125,
+								0.0
+							],
+							"uv": [
+								0,
+								19
+							],
+							"mirror": false,
+							"inflate": 0.0
+						},
+						{
+							"origin": [
+								0.5625,
+								0.875,
+								-0.50625
+							],
+							"size": [
+								0.1875,
+								1.1875,
+								0.0
+							],
+							"uv": [
+								0,
+								0
+							],
+							"mirror": false,
+							"inflate": 0.0,
+							"rotation": [
+								0,
+								0,
+								6.34
+							],
+							"pivot": [
+								0.75,
+								0.875,
+								-0.5
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

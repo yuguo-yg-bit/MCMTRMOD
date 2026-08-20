@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mtr:psd_glass_end",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:hand_equipped": false,
+      "minecraft:icon": "psd_glass_end",
+      "minecraft:display_name": {
+        "value": "PSD Glass End"
+      }
+    }
+  }
+}

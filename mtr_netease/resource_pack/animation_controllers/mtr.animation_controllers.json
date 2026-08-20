@@ -1,0 +1,107 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.mtr.train": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "move",
+            "bogie",
+            "door"
+          ],
+          "transitions": [
+            {
+              "default": "1"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.mtr.boat": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "move",
+            "door"
+          ],
+          "transitions": [
+            {
+              "default": "1"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.mtr.cable_car": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "move",
+            "door"
+          ],
+          "transitions": [
+            {
+              "default": "1"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.mtr.airplane": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "move",
+            "door"
+          ],
+          "transitions": [
+            {
+              "default": "1"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.mtr.lift": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "move"
+          ],
+          "transitions": [
+            {
+              "default": "1"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.mtr.psd_door": {
+      "initial_state": "closed",
+      "states": {
+        "closed": {
+          "transitions": [
+            {
+              "opening": "query.mod.door_open"
+            }
+          ]
+        },
+        "opening": {
+          "animations": [
+            "open"
+          ],
+          "transitions": [
+            {
+              "closed": "!query.mod.door_open"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

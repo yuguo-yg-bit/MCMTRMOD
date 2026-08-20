@@ -1,0 +1,105 @@
+[2026-08-18 11:45:31,618] [INFO][Developer] Starting mobile logger
+[2026-08-18 11:45:31,618] [INFO][Developer] Mobile logger started 192.168.1.69 11749
+[2026-08-18 11:45:31,624] [INFO][Developer] start readStudio
+[2026-08-18 11:45:34,484] [INFO] sendWinPlayWorldDCLog: engine_launch gameserver_connect 0 start
+[2026-08-18 11:45:34,496] [INFO] sendWinPlayWorldDCLog: engine_launch gameserver_connect 0 done
+[2026-08-18 11:45:34,538] [INFO] sendWinPlayWorldDCLog: engine_launch client_connect 0 
+[2026-08-18 11:45:34,546] [INFO] sendWinPlayWorldDCLog: engine_launch resource_pack 0 start
+[2026-08-18 11:45:35,647] [INFO] sendWinPlayWorldDCLog: engine_launch resource_pack 0 done
+[2026-08-18 11:45:35,851] [INFO] sendWinPlayWorldDCLog: engine_launch world_generation 0 start
+[2026-08-18 11:45:35,875] [INFO][Developer] Starting mobile logger
+('=======InitState equipped ', '-4294967295', False)
+('=======InitState gliding ', '-4294967295', None)
+[2026-08-18 11:45:36,940] [INFO][Developer] get_cls_by_clsstr client.ui.settingsScreenProxy SettingsScreenProxy
+[2026-08-18 11:45:36,946] [INFO][Developer] get_cls
+[2026-08-18 11:45:36,947] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:37,056] [INFO][Developer] get_cls_by_clsstr client.neteaseChatNew.ui.neteaseChatProxy NeteaseChatOldProxy
+[2026-08-18 11:45:37,066] [INFO][Developer] get_cls
+[2026-08-18 11:45:37,066] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:37,068] [INFO][Developer] get_cls_by_clsstr client.neteaseChatNew.ui.neteaseCmdBlockProxy NeteaseCmdBlockOldProxy
+[2026-08-18 11:45:37,069] [INFO][Developer] get_cls
+[2026-08-18 11:45:37,069] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:37,069] [INFO][Developer] get_cls_by_clsstr client.ui.reportScreenProxy ReportScreenOldProxy
+[2026-08-18 11:45:37,069] [INFO][Developer] get_cls
+[2026-08-18 11:45:37,071] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:37,081] [INFO][Developer] [GeneralSetting] _hasCocos=False
+[2026-08-18 11:45:37,081] [INFO][Developer] get_cls_by_clsstr mod.client.plugin.generalSetting.ui.PauseScreenProxy PauseScreenProxy
+[2026-08-18 11:45:37,085] [INFO][Developer] get_cls
+[2026-08-18 11:45:37,085] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:37,085] [INFO][Developer] [GeneralSetting] _RegisterProxy finished
+[2026-08-18 11:45:37,240] [ERROR][Engine] get_world_record: None
+[2026-08-18 11:45:37,240] [ERROR][Engine] set custom switch error 'NoneType' object has no attribute 'global_chat_mgr'
+[2026-08-18 11:45:37,647] [ERROR][Engine] get_world_record: None
+ecs_framework create entity  VipLogicServerEntity -4294967295
+ecs_framework entity dict  {'-4294967295': <server.appmgr.vipLogic.e_entity.VipLogicServerEntity.VipLogicServerEntity object at 0x000001579532E438>}
+[skin_perf] requesting abtest key=map_upload via ui_request
+[2026-08-18 11:45:37,732] [INFO][Developer] mod behavior paths =  ['C:/Users/22152/AppData/Roaming/MinecraftPE_Netease/games/com.netease/behavior_packs/behavior_pack']
+[2026-08-18 11:45:37,733] [INFO][Developer] in CreateBooks: behavior 'C:/Users/22152/AppData/Roaming/MinecraftPE_Netease/games/com.netease/behavior_packs/behavior_pack' has no foldName 'customBooks' or path not valid, go on next behavior
+[2026-08-18 11:45:37,742] [ERROR][Engine] get_world_record: None
+ecs_framework create entity  VipLogicClientEntity -4294967295
+ecs_framework entity dict  {'-4294967295': <client.appmgr.vipLogic.e_entity.VipLogicClientEntity.VipLogicClientEntity object at 0x00000157955E4470>}
+[2026-08-18 11:45:39,947] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-18 11:45:39,947] [ERROR][Engine] Error dump: None
+ecs_framework AddComponent -4294967295 EVipSkinPartsUncoveredSteve
+ecs_framework sys onAddComp EHorseAnimSystem
+ecs_framework sys onAddComp ERideAnimSystem
+ecs_framework sys onAddComp EVipSkinPartsSystem
+ecs_framework sys onAddComp EHorseAnimPerspSystem
+[2026-08-18 11:45:51,196] [INFO] sendWinPlayWorldDCLog: engine_launch world_generation 0 done
+[2026-08-18 11:45:51,213] [INFO] sendWinPlayWorldDCLog: engine_launch split_screen 0 start
+[2026-08-18 11:45:51,217] [INFO] sendWinPlayWorldDCLog: engine_launch split_screen 0 done
+[2026-08-18 11:45:51,230] [INFO] sendWinPlayWorldDCLog: engine_launch resource_load 0 start
+[2026-08-18 11:45:51,233] [INFO] sendWinPlayWorldDCLog: engine_launch resource_load 0 done
+[2026-08-18 11:45:51,247] [INFO] sendWinPlayWorldDCLog: engine_launch user_appearance 0 start
+[2026-08-18 11:45:51,250] [INFO] sendWinPlayWorldDCLog: engine_launch user_appearance 0 done
+[2026-08-18 11:45:51,269] [INFO] sendWinPlayWorldDCLog: engine_launch cache_screen 0 start
+[2026-08-18 11:45:51,285] [INFO] sendWinPlayWorldDCLog: engine_launch cache_screen 0 done
+[2026-08-18 11:45:51,311] [INFO] sendWinPlayWorldDCLog: engine_launch simple_call 0 start
+[2026-08-18 11:45:51,312] [INFO] sendWinPlayWorldDCLog: engine_launch simple_call 0 done
+[2026-08-18 11:45:51,329] [INFO] sendWinPlayWorldDCLog: engine_launch game_screen 0 start
+[2026-08-18 11:45:51,332] [INFO] sendWinPlayWorldDCLog: engine_launch game_screen 0 done
+[2026-08-18 11:45:51,344] [INFO] sendWinPlayWorldDCLog: engine_launch game_screen 0 done
+[2026-08-18 11:45:51,516] [INFO][Developer] uimanager init
+[2026-08-18 11:45:51,529] [INFO][Developer] get_cls_by_clsstr client.ui.for_button_cancel PlayGame
+[2026-08-18 11:45:51,529] [INFO][Developer] get_cls
+[2026-08-18 11:45:51,529] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:51,539] [INFO][Developer] get_cls_by_clsstr client.ui.vip_enter_screen VipEnterScreen
+[2026-08-18 11:45:51,542] [INFO][Developer] get_cls
+[2026-08-18 11:45:51,542] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:51,546] [INFO][Developer] get_cls_by_clsstr client.ui.skinTransformButton SkinTransformButton
+[2026-08-18 11:45:51,549] [INFO][Developer] get_cls
+[2026-08-18 11:45:51,549] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:51,555] [INFO][Developer] get_cls_by_clsstr mod.client.ui.pet.miniMapUIControl ParternerMiniMapScreen
+[2026-08-18 11:45:51,561] [INFO][Developer] get_cls
+[2026-08-18 11:45:51,561] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:51,563] [INFO][Developer] start to do a gray request in parterner
+[2026-08-18 11:45:51,563] [INFO][Developer] get_cls_by_clsstr mod.client.ui.petHudUI PetHudUI
+[2026-08-18 11:45:51,565] [INFO][Developer] get_cls
+[2026-08-18 11:45:51,565] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:51,576] [INFO][Developer] get_cls_by_clsstr mod.client.ui.petMainUI PetMainUI
+[2026-08-18 11:45:51,578] [INFO][Developer] get_cls
+[2026-08-18 11:45:51,578] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:51,586] [INFO][Developer] get_cls_by_clsstr mod.client.ui.petEatUI PetEatUI
+[2026-08-18 11:45:51,588] [INFO][Developer] get_cls
+[2026-08-18 11:45:51,588] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:51,594] [INFO][Developer] get_cls_by_clsstr mod.client.ui.petChatHudScreen PetChatHudScreen
+[2026-08-18 11:45:51,596] [INFO][Developer] get_cls
+[2026-08-18 11:45:51,598] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:51,631] [INFO][Developer] get_cls_by_clsstr mod.client.ui.multiHorseUI MultiHorseUI
+[2026-08-18 11:45:51,631] [INFO][Developer] get_cls
+[2026-08-18 11:45:51,631] [INFO][Developer] get_cls success!!!
+[multiHorseUi]  [Create]  self.mContainerPos:  None
+[2026-08-18 11:45:51,638] [INFO][Developer] get_cls_by_clsstr client.ui.PopWindow PopWindow
+[2026-08-18 11:45:51,640] [INFO][Developer] get_cls
+[2026-08-18 11:45:51,640] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:45:51,642] [INFO][Developer] [GeneralSetting] _RegisterUI finished
+[2026-08-18 11:45:56,418] [INFO][Developer] do not load mount skin
+[2026-08-18 11:46:37,585] [INFO][Developer] do not load mount skin
+[2026-08-18 11:46:57,959] [INFO][Developer] do not load mount skin
+[2026-08-18 11:48:14,921] [INFO][Developer] get_cls_by_clsstr mod.client.plugin.generalSetting.ui.PauseScreenProxy PauseScreenProxy
+[2026-08-18 11:48:14,921] [INFO][Developer] get_cls
+[2026-08-18 11:48:14,921] [INFO][Developer] get_cls success!!!
+[2026-08-18 11:48:14,921] [INFO][Developer] PauseScreenProxy Create
+ecs_framework clear all
+[2026-08-18 11:48:15,776] [INFO][Developer] GetPostToWebHeadUrl apigw_url is empty
+ecs_framework clear all

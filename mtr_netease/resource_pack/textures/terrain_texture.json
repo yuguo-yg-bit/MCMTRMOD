@@ -1,0 +1,479 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "airplane_node": {
+      "textures": "textures/blocks/airplane_node"
+    },
+    "apg_door": {
+      "textures": "textures/blocks/apg_door"
+    },
+    "apg_glass": {
+      "textures": "textures/blocks/apg_glass"
+    },
+    "apg_glass_end": {
+      "textures": "textures/blocks/apg_glass_end"
+    },
+    "arrival_projector_1_large": {
+      "textures": "textures/blocks/arrival_projector_1_large"
+    },
+    "arrival_projector_1_medium": {
+      "textures": "textures/blocks/arrival_projector_1_medium"
+    },
+    "arrival_projector_1_small": {
+      "textures": "textures/blocks/arrival_projector_1_small"
+    },
+    "boat_node": {
+      "textures": "textures/blocks/boat_node"
+    },
+    "cable_car_node_lower": {
+      "textures": "textures/blocks/cable_car_node_lower"
+    },
+    "cable_car_node_station": {
+      "textures": "textures/blocks/cable_car_node_station"
+    },
+    "cable_car_node_upper": {
+      "textures": "textures/blocks/cable_car_node_upper"
+    },
+    "ceiling": {
+      "textures": "textures/blocks/ceiling"
+    },
+    "ceiling_light": {
+      "textures": "textures/blocks/ceiling_light"
+    },
+    "ceiling_no_light": {
+      "textures": "textures/blocks/ceiling_no_light"
+    },
+    "clock": {
+      "textures": "textures/blocks/clock"
+    },
+    "clock_pole": {
+      "textures": "textures/blocks/clock_pole"
+    },
+    "escalator_side": {
+      "textures": "textures/blocks/escalator_side"
+    },
+    "escalator_step": {
+      "textures": "textures/blocks/escalator_step"
+    },
+    "eye_candy": {
+      "textures": "textures/blocks/eye_candy"
+    },
+    "lift_buttons_1": {
+      "textures": "textures/blocks/lift_buttons_1"
+    },
+    "lift_door_1": {
+      "textures": "textures/blocks/lift_door_1"
+    },
+    "lift_door_odd_1": {
+      "textures": "textures/blocks/lift_door_odd_1"
+    },
+    "lift_panel_even_1": {
+      "textures": "textures/blocks/lift_panel_even_1"
+    },
+    "lift_panel_even_2": {
+      "textures": "textures/blocks/lift_panel_even_2"
+    },
+    "lift_panel_odd_1": {
+      "textures": "textures/blocks/lift_panel_odd_1"
+    },
+    "lift_panel_odd_2": {
+      "textures": "textures/blocks/lift_panel_odd_2"
+    },
+    "lift_track_1": {
+      "textures": "textures/blocks/lift_track_1"
+    },
+    "lift_track_diagonal_1": {
+      "textures": "textures/blocks/lift_track_diagonal_1"
+    },
+    "lift_track_floor_1": {
+      "textures": "textures/blocks/lift_track_floor_1"
+    },
+    "lift_track_horizontal_1": {
+      "textures": "textures/blocks/lift_track_horizontal_1"
+    },
+    "logo": {
+      "textures": "textures/blocks/logo"
+    },
+    "marble_blue": {
+      "textures": "textures/blocks/marble_blue"
+    },
+    "marble_blue_low": {
+      "textures": "textures/blocks/marble_blue_low"
+    },
+    "marble_blue_middle": {
+      "textures": "textures/blocks/marble_blue_middle"
+    },
+    "marble_blue_tall": {
+      "textures": "textures/blocks/marble_blue_tall"
+    },
+    "marble_blue_tile": {
+      "textures": "textures/blocks/marble_blue_tile"
+    },
+    "marble_blue_very_tall": {
+      "textures": "textures/blocks/marble_blue_very_tall"
+    },
+    "marble_blue_very_very_tall": {
+      "textures": "textures/blocks/marble_blue_very_very_tall"
+    },
+    "pids_1": {
+      "textures": "textures/blocks/pids_1"
+    },
+    "pids_2": {
+      "textures": "textures/blocks/pids_2"
+    },
+    "pids_3": {
+      "textures": "textures/blocks/pids_3"
+    },
+    "pids_4": {
+      "textures": "textures/blocks/pids_4"
+    },
+    "pids_pole": {
+      "textures": "textures/blocks/pids_pole"
+    },
+    "pids_single_arrival_1": {
+      "textures": "textures/blocks/pids_single_arrival_1"
+    },
+    "pids_top": {
+      "textures": "textures/blocks/pids_top"
+    },
+    "pids_top_2": {
+      "textures": "textures/blocks/pids_top_2"
+    },
+    "pids_top_3": {
+      "textures": "textures/blocks/pids_top_3"
+    },
+    "pids_top_4": {
+      "textures": "textures/blocks/pids_top_4"
+    },
+    "platform": {
+      "textures": "textures/blocks/platform"
+    },
+    "platform_indented": {
+      "textures": "textures/blocks/platform_indented"
+    },
+    "platform_na_1": {
+      "textures": "textures/blocks/platform_na_1"
+    },
+    "platform_na_1_indented": {
+      "textures": "textures/blocks/platform_na_1_indented"
+    },
+    "platform_na_1_slab": {
+      "textures": "textures/blocks/platform_na_1_slab"
+    },
+    "platform_na_2": {
+      "textures": "textures/blocks/platform_na_2"
+    },
+    "platform_na_2_indented": {
+      "textures": "textures/blocks/platform_na_2_indented"
+    },
+    "platform_na_2_slab": {
+      "textures": "textures/blocks/platform_na_2_slab"
+    },
+    "platform_slab": {
+      "textures": "textures/blocks/platform_slab"
+    },
+    "platform_uk_1": {
+      "textures": "textures/blocks/platform_uk_1"
+    },
+    "platform_uk_1_indented": {
+      "textures": "textures/blocks/platform_uk_1_indented"
+    },
+    "platform_uk_1_slab": {
+      "textures": "textures/blocks/platform_uk_1_slab"
+    },
+    "psd_door": {
+      "textures": "textures/blocks/psd_door"
+    },
+    "psd_door_2": {
+      "textures": "textures/blocks/psd_door_2"
+    },
+    "psd_glass": {
+      "textures": "textures/blocks/psd_glass"
+    },
+    "psd_glass_2": {
+      "textures": "textures/blocks/psd_glass_2"
+    },
+    "psd_glass_end": {
+      "textures": "textures/blocks/psd_glass_end"
+    },
+    "psd_glass_end_2": {
+      "textures": "textures/blocks/psd_glass_end_2"
+    },
+    "psd_top": {
+      "textures": "textures/blocks/psd_top"
+    },
+    "rail": {
+      "textures": "textures/blocks/rail"
+    },
+    "railway_sign_2_even": {
+      "textures": "textures/blocks/railway_sign_2_even"
+    },
+    "railway_sign_2_odd": {
+      "textures": "textures/blocks/railway_sign_2_odd"
+    },
+    "railway_sign_3_even": {
+      "textures": "textures/blocks/railway_sign_3_even"
+    },
+    "railway_sign_3_odd": {
+      "textures": "textures/blocks/railway_sign_3_odd"
+    },
+    "railway_sign_4_even": {
+      "textures": "textures/blocks/railway_sign_4_even"
+    },
+    "railway_sign_4_odd": {
+      "textures": "textures/blocks/railway_sign_4_odd"
+    },
+    "railway_sign_5_even": {
+      "textures": "textures/blocks/railway_sign_5_even"
+    },
+    "railway_sign_5_odd": {
+      "textures": "textures/blocks/railway_sign_5_odd"
+    },
+    "railway_sign_6_even": {
+      "textures": "textures/blocks/railway_sign_6_even"
+    },
+    "railway_sign_6_odd": {
+      "textures": "textures/blocks/railway_sign_6_odd"
+    },
+    "railway_sign_7_even": {
+      "textures": "textures/blocks/railway_sign_7_even"
+    },
+    "railway_sign_7_odd": {
+      "textures": "textures/blocks/railway_sign_7_odd"
+    },
+    "railway_sign_middle": {
+      "textures": "textures/blocks/railway_sign_middle"
+    },
+    "railway_sign_pole": {
+      "textures": "textures/blocks/railway_sign_pole"
+    },
+    "resource_pack_creator": {
+      "textures": "textures/blocks/resource_pack_creator"
+    },
+    "route_sign_standing_light": {
+      "textures": "textures/blocks/route_sign_standing_light"
+    },
+    "route_sign_standing_metal": {
+      "textures": "textures/blocks/route_sign_standing_metal"
+    },
+    "route_sign_wall_light": {
+      "textures": "textures/blocks/route_sign_wall_light"
+    },
+    "route_sign_wall_metal": {
+      "textures": "textures/blocks/route_sign_wall_metal"
+    },
+    "signal_light_1": {
+      "textures": "textures/blocks/signal_light_1"
+    },
+    "signal_light_2": {
+      "textures": "textures/blocks/signal_light_2"
+    },
+    "signal_light_3": {
+      "textures": "textures/blocks/signal_light_3"
+    },
+    "signal_light_3_aspect_1": {
+      "textures": "textures/blocks/signal_light_3_aspect_1"
+    },
+    "signal_light_3_aspect_2": {
+      "textures": "textures/blocks/signal_light_3_aspect_2"
+    },
+    "signal_light_4": {
+      "textures": "textures/blocks/signal_light_4"
+    },
+    "signal_light_4_aspect_1": {
+      "textures": "textures/blocks/signal_light_4_aspect_1"
+    },
+    "signal_light_4_aspect_2": {
+      "textures": "textures/blocks/signal_light_4_aspect_2"
+    },
+    "signal_pole": {
+      "textures": "textures/blocks/signal_pole"
+    },
+    "signal_semaphore_1": {
+      "textures": "textures/blocks/signal_semaphore_1"
+    },
+    "signal_semaphore_2": {
+      "textures": "textures/blocks/signal_semaphore_2"
+    },
+    "station_color_andesite": {
+      "textures": "textures/blocks/station_color_andesite"
+    },
+    "station_color_bedrock": {
+      "textures": "textures/blocks/station_color_bedrock"
+    },
+    "station_color_birch_wood": {
+      "textures": "textures/blocks/station_color_birch_wood"
+    },
+    "station_color_bone_block": {
+      "textures": "textures/blocks/station_color_bone_block"
+    },
+    "station_color_chiseled_quartz_block": {
+      "textures": "textures/blocks/station_color_chiseled_quartz_block"
+    },
+    "station_color_chiseled_stone_bricks": {
+      "textures": "textures/blocks/station_color_chiseled_stone_bricks"
+    },
+    "station_color_clay": {
+      "textures": "textures/blocks/station_color_clay"
+    },
+    "station_color_coal_ore": {
+      "textures": "textures/blocks/station_color_coal_ore"
+    },
+    "station_color_cobblestone": {
+      "textures": "textures/blocks/station_color_cobblestone"
+    },
+    "station_color_concrete": {
+      "textures": "textures/blocks/station_color_concrete"
+    },
+    "station_color_concrete_powder": {
+      "textures": "textures/blocks/station_color_concrete_powder"
+    },
+    "station_color_cracked_stone_bricks": {
+      "textures": "textures/blocks/station_color_cracked_stone_bricks"
+    },
+    "station_color_dark_prismarine": {
+      "textures": "textures/blocks/station_color_dark_prismarine"
+    },
+    "station_color_diorite": {
+      "textures": "textures/blocks/station_color_diorite"
+    },
+    "station_color_gravel": {
+      "textures": "textures/blocks/station_color_gravel"
+    },
+    "station_color_iron_block": {
+      "textures": "textures/blocks/station_color_iron_block"
+    },
+    "station_color_metal": {
+      "textures": "textures/blocks/station_color_metal"
+    },
+    "station_color_mossy_stone_bricks": {
+      "textures": "textures/blocks/station_color_mossy_stone_bricks"
+    },
+    "station_color_packed_ice": {
+      "textures": "textures/blocks/station_color_packed_ice"
+    },
+    "station_color_planks": {
+      "textures": "textures/blocks/station_color_planks"
+    },
+    "station_color_polished_andesite": {
+      "textures": "textures/blocks/station_color_polished_andesite"
+    },
+    "station_color_polished_diorite": {
+      "textures": "textures/blocks/station_color_polished_diorite"
+    },
+    "station_color_polished_granite": {
+      "textures": "textures/blocks/station_color_polished_granite"
+    },
+    "station_color_prismarine": {
+      "textures": "textures/blocks/station_color_prismarine"
+    },
+    "station_color_purpur_block": {
+      "textures": "textures/blocks/station_color_purpur_block"
+    },
+    "station_color_purpur_pillar": {
+      "textures": "textures/blocks/station_color_purpur_pillar"
+    },
+    "station_color_quartz_block": {
+      "textures": "textures/blocks/station_color_quartz_block"
+    },
+    "station_color_quartz_bricks": {
+      "textures": "textures/blocks/station_color_quartz_bricks"
+    },
+    "station_color_quartz_pillar": {
+      "textures": "textures/blocks/station_color_quartz_pillar"
+    },
+    "station_color_red_sandstone": {
+      "textures": "textures/blocks/station_color_red_sandstone"
+    },
+    "station_color_sandstone": {
+      "textures": "textures/blocks/station_color_sandstone"
+    },
+    "station_color_smooth_quartz": {
+      "textures": "textures/blocks/station_color_smooth_quartz"
+    },
+    "station_color_smooth_stone": {
+      "textures": "textures/blocks/station_color_smooth_stone"
+    },
+    "station_color_snow": {
+      "textures": "textures/blocks/station_color_snow"
+    },
+    "station_color_stone": {
+      "textures": "textures/blocks/station_color_stone"
+    },
+    "station_color_stone_bricks": {
+      "textures": "textures/blocks/station_color_stone_bricks"
+    },
+    "station_color_wool": {
+      "textures": "textures/blocks/station_color_wool"
+    },
+    "station_name_entrance": {
+      "textures": "textures/blocks/station_name_entrance"
+    },
+    "station_name_tall_block": {
+      "textures": "textures/blocks/station_name_tall_block"
+    },
+    "station_name_tall_block_double_sided": {
+      "textures": "textures/blocks/station_name_tall_block_double_sided"
+    },
+    "station_name_tall_standing": {
+      "textures": "textures/blocks/station_name_tall_standing"
+    },
+    "station_name_tall_wall": {
+      "textures": "textures/blocks/station_name_tall_wall"
+    },
+    "station_name_wall": {
+      "textures": "textures/blocks/station_name_wall"
+    },
+    "station_name_wall_black": {
+      "textures": "textures/blocks/station_name_wall_black"
+    },
+    "station_name_wall_gray": {
+      "textures": "textures/blocks/station_name_wall_gray"
+    },
+    "ticket_barrier_entrance_1": {
+      "textures": "textures/blocks/ticket_barrier_entrance_1"
+    },
+    "ticket_barrier_exit_1": {
+      "textures": "textures/blocks/ticket_barrier_exit_1"
+    },
+    "ticket_barrier_side_1": {
+      "textures": "textures/blocks/ticket_barrier_side_1"
+    },
+    "ticket_machine": {
+      "textures": "textures/blocks/ticket_machine"
+    },
+    "ticket_processor": {
+      "textures": "textures/blocks/ticket_processor"
+    },
+    "ticket_processor_enquiry": {
+      "textures": "textures/blocks/ticket_processor_enquiry"
+    },
+    "ticket_processor_entrance": {
+      "textures": "textures/blocks/ticket_processor_entrance"
+    },
+    "ticket_processor_exit": {
+      "textures": "textures/blocks/ticket_processor_exit"
+    },
+    "train_announcer": {
+      "textures": "textures/blocks/train_announcer"
+    },
+    "train_cargo_loader": {
+      "textures": "textures/blocks/train_cargo_loader"
+    },
+    "train_cargo_unloader": {
+      "textures": "textures/blocks/train_cargo_unloader"
+    },
+    "train_redstone_sensor": {
+      "textures": "textures/blocks/train_redstone_sensor"
+    },
+    "train_redstone_sensor_2": {
+      "textures": "textures/blocks/train_redstone_sensor_2"
+    },
+    "train_schedule_sensor": {
+      "textures": "textures/blocks/train_schedule_sensor"
+    }
+  }
+}

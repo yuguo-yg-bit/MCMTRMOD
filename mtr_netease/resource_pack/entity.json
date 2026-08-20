@@ -1,0 +1,2110 @@
+{
+  "format_version": [
+    1,
+    19,
+    0
+  ],
+  "mtr:rendering": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:rendering",
+        "materials": {
+          "default": "entity"
+        },
+        "geometry": {
+          "default": "geometry.mtr.empty"
+        },
+        "textures": {
+          "default": "textures/entity/empty"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:psd_door": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:psd_door",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.psd_door"
+        },
+        "textures": {
+          "default": "textures/blocks/psd_door"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:psd_glass": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:psd_glass",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.psd_glass"
+        },
+        "textures": {
+          "default": "textures/blocks/psd_glass"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:psd_glass_end": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:psd_glass_end",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.psd_glass_end"
+        },
+        "textures": {
+          "default": "textures/blocks/psd_glass_end"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:psd_top": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:psd_top",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.psd_top"
+        },
+        "textures": {
+          "default": "textures/blocks/psd_top"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:apg_door": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:apg_door",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.apg_door"
+        },
+        "textures": {
+          "default": "textures/blocks/apg_door"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:apg_glass": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:apg_glass",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.apg_glass"
+        },
+        "textures": {
+          "default": "textures/blocks/apg_glass"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:apg_glass_end": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:apg_glass_end",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.apg_glass_end"
+        },
+        "textures": {
+          "default": "textures/blocks/apg_glass_end"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:signal_light": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:signal_light",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.signal_light"
+        },
+        "textures": {
+          "default": "textures/blocks/signal_light_1"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:pids": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:pids",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.pids"
+        },
+        "textures": {
+          "default": "textures/blocks/pids_1"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:station_name": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:station_name",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.station_name"
+        },
+        "textures": {
+          "default": "textures/blocks/station_name_wall"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:railway_sign": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:railway_sign",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.railway_sign"
+        },
+        "textures": {
+          "default": "textures/blocks/railway_sign_middle"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:route_sign": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:route_sign",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.route_sign"
+        },
+        "textures": {
+          "default": "textures/blocks/route_sign_standing_metal"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:clock": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:clock",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.clock"
+        },
+        "textures": {
+          "default": "textures/blocks/clock"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:clock_pole": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:clock_pole",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.clock_pole"
+        },
+        "textures": {
+          "default": "textures/blocks/clock_pole"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:ticket_machine": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:ticket_machine",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.ticket_machine"
+        },
+        "textures": {
+          "default": "textures/blocks/ticket_machine"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:ticket_barrier": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:ticket_barrier",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.ticket_barrier"
+        },
+        "textures": {
+          "default": "textures/blocks/ticket_barrier_entrance_1"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:lift_door": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:lift_door",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.lift_door"
+        },
+        "textures": {
+          "default": "textures/blocks/lift_door_1"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:lift_panel": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:lift_panel",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.lift_panel"
+        },
+        "textures": {
+          "default": "textures/blocks/lift_panel_even_1"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:lift_track": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:lift_track",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.lift_track"
+        },
+        "textures": {
+          "default": "textures/blocks/lift_track_1"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:train_sensor": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:train_sensor",
+        "materials": {
+          "default": "entity"
+        },
+        "geometry": {
+          "default": "geometry.mtr.train_sensor"
+        },
+        "textures": {
+          "default": "textures/blocks/train_schedule_sensor"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:escalator_side": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:escalator_side",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.escalator_side"
+        },
+        "textures": {
+          "default": "textures/blocks/escalator_side"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:escalator_step": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:escalator_step",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.escalator_step"
+        },
+        "textures": {
+          "default": "textures/blocks/escalator_step"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:eye_candy": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:eye_candy",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.eye_candy"
+        },
+        "textures": {
+          "default": "textures/blocks/eye_candy"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:platform": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:platform",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.platform"
+        },
+        "textures": {
+          "default": "textures/blocks/platform"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:glass_fence": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:glass_fence",
+        "materials": {
+          "default": "entity_alpha_test"
+        },
+        "geometry": {
+          "default": "geometry.mtr.glass_fence"
+        },
+        "textures": {
+          "default": "textures/blocks/psd_glass"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:rubbish_bin": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:rubbish_bin",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.rubbish_bin"
+        },
+        "textures": {
+          "default": "textures/blocks/station_color_metal"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:logo": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:logo",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.logo"
+        },
+        "textures": {
+          "default": "textures/blocks/logo"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:train_announcer": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:train_announcer",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.train_announcer"
+        },
+        "textures": {
+          "default": "textures/blocks/train_announcer"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:tactile_map": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:tactile_map",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.tactile_map"
+        },
+        "textures": {
+          "default": "textures/blocks/station_color_smooth_stone"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:rail": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        },
+        "identifier": "mtr:rail",
+        "geometry": {
+          "default": "geometry.rail"
+        },
+        "textures": {
+          "default": "textures/entity/rail"
+        }
+      }
+    }
+  },
+  "mtr:ceiling": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:ceiling",
+        "materials": {
+          "default": "entity"
+        },
+        "geometry": {
+          "default": "geometry.mtr.ceiling"
+        },
+        "textures": {
+          "default": "textures/blocks/ceiling"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:station_color": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:station_color",
+        "materials": {
+          "default": "entity"
+        },
+        "geometry": {
+          "default": "geometry.mtr.station_color"
+        },
+        "textures": {
+          "default": "textures/blocks/station_color_wool"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:driver_key_dispenser": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:driver_key_dispenser",
+        "materials": {
+          "default": "entity"
+        },
+        "geometry": {
+          "default": "geometry.mtr.driver_key_dispenser"
+        },
+        "textures": {
+          "default": "textures/blocks/station_color_metal"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:arrival_projector": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mtr:arrival_projector",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.mtr.arrival_projector"
+        },
+        "textures": {
+          "default": "textures/blocks/arrival_projector_1_medium"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        }
+      }
+    }
+  },
+  "mtr:train_a320": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_a320",
+        "geometry": {
+          "default": "geometry.a320"
+        },
+        "textures": {
+          "default": "textures/entity/a320"
+        }
+      }
+    }
+  },
+  "mtr:train_a_train": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_a_train",
+        "geometry": {
+          "default": "geometry.a_train"
+        },
+        "textures": {
+          "default": "textures/entity/a_train_ael"
+        }
+      }
+    }
+  },
+  "mtr:train_br_423": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_br_423",
+        "geometry": {
+          "default": "geometry.br_423"
+        },
+        "textures": {
+          "default": "textures/entity/br_423"
+        }
+      }
+    }
+  },
+  "mtr:train_class_345": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_class_345",
+        "geometry": {
+          "default": "geometry.class_345"
+        },
+        "textures": {
+          "default": "textures/entity/class_345"
+        }
+      }
+    }
+  },
+  "mtr:train_class_377": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_class_377",
+        "geometry": {
+          "default": "geometry.class_377"
+        },
+        "textures": {
+          "default": "textures/entity/class_377_southern"
+        }
+      }
+    }
+  },
+  "mtr:train_class_802": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_class_802",
+        "geometry": {
+          "default": "geometry.class_802"
+        },
+        "textures": {
+          "default": "textures/entity/class_802_gwr"
+        }
+      }
+    }
+  },
+  "mtr:train_cm_stock": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_cm_stock",
+        "geometry": {
+          "default": "geometry.cm_stock"
+        },
+        "textures": {
+          "default": "textures/entity/cm_stock"
+        }
+      }
+    }
+  },
+  "mtr:train_c_train": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_c_train",
+        "geometry": {
+          "default": "geometry.c_train"
+        },
+        "textures": {
+          "default": "textures/entity/c_train"
+        }
+      }
+    }
+  },
+  "mtr:train_drl": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_drl",
+        "geometry": {
+          "default": "geometry.drl"
+        },
+        "textures": {
+          "default": "textures/entity/drl"
+        }
+      }
+    }
+  },
+  "mtr:train_e44": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_e44",
+        "geometry": {
+          "default": "geometry.e44"
+        },
+        "textures": {
+          "default": "textures/entity/e44"
+        }
+      }
+    }
+  },
+  "mtr:train_eidan_9000": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_eidan_9000",
+        "geometry": {
+          "default": "geometry.eidan_9000"
+        },
+        "textures": {
+          "default": "textures/entity/eidan_9000"
+        }
+      }
+    }
+  },
+  "mtr:train_kcr_christmas": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_kcr_christmas",
+        "geometry": {
+          "default": "geometry.kcr_christmas"
+        },
+        "textures": {
+          "default": "textures/entity/kcr_christmas"
+        }
+      }
+    }
+  },
+  "mtr:train_k_train": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_k_train",
+        "geometry": {
+          "default": "geometry.k_train"
+        },
+        "textures": {
+          "default": "textures/entity/k_train"
+        }
+      }
+    }
+  },
+  "mtr:train_light_rail": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_light_rail",
+        "geometry": {
+          "default": "geometry.light_rail"
+        },
+        "textures": {
+          "default": "textures/entity/light_rail_1"
+        }
+      }
+    }
+  },
+  "mtr:train_london_underground_1938": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_london_underground_1938",
+        "geometry": {
+          "default": "geometry.london_underground_1938"
+        },
+        "textures": {
+          "default": "textures/entity/london_underground_1938"
+        }
+      }
+    }
+  },
+  "mtr:train_london_underground_1995": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_london_underground_1995",
+        "geometry": {
+          "default": "geometry.london_underground_1995"
+        },
+        "textures": {
+          "default": "textures/entity/london_underground_1995"
+        }
+      }
+    }
+  },
+  "mtr:train_london_underground_d78": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_london_underground_d78",
+        "geometry": {
+          "default": "geometry.london_underground_d78"
+        },
+        "textures": {
+          "default": "textures/entity/london_underground_d78"
+        }
+      }
+    }
+  },
+  "mtr:train_london_underground_s7": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_london_underground_s7",
+        "geometry": {
+          "default": "geometry.london_underground_s7"
+        },
+        "textures": {
+          "default": "textures/entity/london_underground_s7"
+        }
+      }
+    }
+  },
+  "mtr:train_mlr": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_mlr",
+        "geometry": {
+          "default": "geometry.mlr"
+        },
+        "textures": {
+          "default": "textures/entity/mlr"
+        }
+      }
+    }
+  },
+  "mtr:train_mpl_16": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_mpl_16",
+        "geometry": {
+          "default": "geometry.mpl_16"
+        },
+        "textures": {
+          "default": "textures/entity/mpl_16"
+        }
+      }
+    }
+  },
+  "mtr:train_mpl_85": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_mpl_85",
+        "geometry": {
+          "default": "geometry.mpl_85"
+        },
+        "textures": {
+          "default": "textures/entity/mpl_85"
+        }
+      }
+    }
+  },
+  "mtr:train_m_train": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_m_train",
+        "geometry": {
+          "default": "geometry.m_train"
+        },
+        "textures": {
+          "default": "textures/entity/m_train"
+        }
+      }
+    }
+  },
+  "mtr:train_r179": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_r179",
+        "geometry": {
+          "default": "geometry.r179"
+        },
+        "textures": {
+          "default": "textures/entity/r179"
+        }
+      }
+    }
+  },
+  "mtr:train_r211": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_r211",
+        "geometry": {
+          "default": "geometry.r211"
+        },
+        "textures": {
+          "default": "textures/entity/r211"
+        }
+      }
+    }
+  },
+  "mtr:train_r_train": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_r_train",
+        "geometry": {
+          "default": "geometry.r_train"
+        },
+        "textures": {
+          "default": "textures/entity/r_train"
+        }
+      }
+    }
+  },
+  "mtr:train_s700": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_s700",
+        "geometry": {
+          "default": "geometry.s700"
+        },
+        "textures": {
+          "default": "textures/entity/s700"
+        }
+      }
+    }
+  },
+  "mtr:train_sp1900": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_sp1900",
+        "geometry": {
+          "default": "geometry.sp1900"
+        },
+        "textures": {
+          "default": "textures/entity/sp1900"
+        }
+      }
+    }
+  },
+  "mtr:train_s_train": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity",
+          "glass": "entity_alphatest"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door",
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door",
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:train_s_train",
+        "geometry": {
+          "default": "geometry.s_train"
+        },
+        "textures": {
+          "default": "textures/entity/s_train"
+        }
+      }
+    }
+  },
+  "mtr:boat_medium": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.boat"
+        ],
+        "animations": {
+          "move": "animation.mtr.boat.move",
+          "door": "animation.mtr.boat.door"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door"
+          ]
+        },
+        "identifier": "mtr:boat_medium",
+        "geometry": {
+          "default": "geometry.boat_medium"
+        },
+        "textures": {
+          "default": "textures/entity/boat"
+        }
+      }
+    }
+  },
+  "mtr:boat_small": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.boat"
+        ],
+        "animations": {
+          "move": "animation.mtr.boat.move",
+          "door": "animation.mtr.boat.door"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door"
+          ]
+        },
+        "identifier": "mtr:boat_small",
+        "geometry": {
+          "default": "geometry.boat_small"
+        },
+        "textures": {
+          "default": "textures/entity/boat"
+        }
+      }
+    }
+  },
+  "mtr:cable_car_grip": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.cable_car"
+        ],
+        "animations": {
+          "move": "animation.mtr.cable_car.move",
+          "door": "animation.mtr.cable_car.door"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door"
+          ]
+        },
+        "identifier": "mtr:cable_car_grip",
+        "geometry": {
+          "default": "geometry.cable_car_grip"
+        },
+        "textures": {
+          "default": "textures/entity/cable_car_grip"
+        }
+      }
+    }
+  },
+  "mtr:cable_car_ngong_ping_360": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.cable_car"
+        ],
+        "animations": {
+          "move": "animation.mtr.cable_car.move",
+          "door": "animation.mtr.cable_car.door"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door"
+          ]
+        },
+        "identifier": "mtr:cable_car_ngong_ping_360",
+        "geometry": {
+          "default": "geometry.ngong_ping_360"
+        },
+        "textures": {
+          "default": "textures/entity/ngong_ping_360_normal_light_blue"
+        }
+      }
+    }
+  },
+  "mtr:lift_1": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.lift"
+        ],
+        "animations": {
+          "move": "animation.mtr.lift.move"
+        },
+        "scripts": {
+          "animate": [
+            "move"
+          ]
+        },
+        "identifier": "mtr:lift_1",
+        "geometry": {
+          "default": "geometry.lift_1"
+        },
+        "textures": {
+          "default": "textures/entity/lift_1"
+        }
+      }
+    }
+  },
+  "mtr:minecart": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "move": "animation.mtr.train.move",
+          "door": "animation.mtr.train.door"
+        },
+        "scripts": {
+          "animate": [
+            "move",
+            "door"
+          ]
+        },
+        "identifier": "mtr:minecart",
+        "geometry": {
+          "default": "geometry.minecart"
+        },
+        "textures": {
+          "default": "textures/entity/minecart"
+        }
+      }
+    }
+  },
+  "mtr:bogie_1": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:bogie_1",
+        "geometry": {
+          "default": "geometry.bogie_1"
+        },
+        "textures": {
+          "default": "textures/entity/bogie_1"
+        }
+      }
+    }
+  },
+  "mtr:bogie_2": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:bogie_2",
+        "geometry": {
+          "default": "geometry.bogie_2"
+        },
+        "textures": {
+          "default": "textures/entity/bogie_2"
+        }
+      }
+    }
+  },
+  "mtr:bogie_3": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "bogie": "animation.mtr.train.bogie"
+        },
+        "scripts": {
+          "animate": [
+            "bogie"
+          ]
+        },
+        "identifier": "mtr:bogie_3",
+        "geometry": {
+          "default": "geometry.bogie_3"
+        },
+        "textures": {
+          "default": "textures/entity/bogie_3"
+        }
+      }
+    }
+  },
+  "mtr:door_overlay": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "door": "animation.mtr.train.door"
+        },
+        "scripts": {
+          "animate": [
+            "door"
+          ]
+        },
+        "identifier": "mtr:door_overlay",
+        "geometry": {
+          "default": "geometry.door_overlay"
+        },
+        "textures": {
+          "default": "textures/entity/door_overlay_light_rail_1_left"
+        }
+      }
+    }
+  },
+  "mtr:door_overlay_a_train_tcl": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "door": "animation.mtr.train.door"
+        },
+        "scripts": {
+          "animate": [
+            "door"
+          ]
+        },
+        "identifier": "mtr:door_overlay_a_train_tcl",
+        "geometry": {
+          "default": "geometry.door_overlay_a_train_tcl"
+        },
+        "textures": {
+          "default": "textures/entity/door_overlay_a_train_tcl_left"
+        }
+      }
+    }
+  },
+  "mtr:door_overlay_light_rail": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "door": "animation.mtr.train.door"
+        },
+        "scripts": {
+          "animate": [
+            "door"
+          ]
+        },
+        "identifier": "mtr:door_overlay_light_rail",
+        "geometry": {
+          "default": "geometry.door_overlay_light_rail"
+        },
+        "textures": {
+          "default": "textures/entity/door_overlay_light_rail_1_left"
+        }
+      }
+    }
+  },
+  "mtr:door_overlay_mlr": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "door": "animation.mtr.train.door"
+        },
+        "scripts": {
+          "animate": [
+            "door"
+          ]
+        },
+        "identifier": "mtr:door_overlay_mlr",
+        "geometry": {
+          "default": "geometry.door_overlay_mlr"
+        },
+        "textures": {
+          "default": "textures/entity/door_overlay_mlr_left"
+        }
+      }
+    }
+  },
+  "mtr:door_overlay_top_mlr": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "door": "animation.mtr.train.door"
+        },
+        "scripts": {
+          "animate": [
+            "door"
+          ]
+        },
+        "identifier": "mtr:door_overlay_top_mlr",
+        "geometry": {
+          "default": "geometry.door_overlay_top_mlr"
+        },
+        "textures": {
+          "default": "textures/entity/door_overlay_mlr_top"
+        }
+      }
+    }
+  },
+  "mtr:door_overlay_top_sp1900": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.mtr.train"
+        ],
+        "animations": {
+          "door": "animation.mtr.train.door"
+        },
+        "scripts": {
+          "animate": [
+            "door"
+          ]
+        },
+        "identifier": "mtr:door_overlay_top_sp1900",
+        "geometry": {
+          "default": "geometry.door_overlay_top_sp1900"
+        },
+        "textures": {
+          "default": "textures/entity/door_overlay_sp1900_top"
+        }
+      }
+    }
+  },
+  "mtr:rail_siding": {
+    "minecraft:client_entity": {
+      "description": {
+        "materials": {
+          "default": "entity"
+        },
+        "render_controllers": [
+          "controller.render.default"
+        ],
+        "scripts": {
+          "animate": []
+        },
+        "identifier": "mtr:rail_siding",
+        "geometry": {
+          "default": "geometry.rail_siding"
+        },
+        "textures": {
+          "default": "textures/entity/rail_siding"
+        }
+      }
+    }
+  }
+}

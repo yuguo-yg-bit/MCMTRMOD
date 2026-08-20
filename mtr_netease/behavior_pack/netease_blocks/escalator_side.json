@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mtr:escalator_side",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:destroy_time": {
+        "value": 1.5
+      },
+      "minecraft:explosion_resistance": {
+        "value": 6.0
+      },
+      "netease:aabb": {
+        "collision": {
+          "min": [
+            0.75,
+            0.0,
+            0.0
+          ],
+          "max": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "clip": {
+          "min": [
+            0.75,
+            0.0,
+            0.0
+          ],
+          "max": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "netease:face_directional": {
+        "type": "direction"
+      },
+      "netease:block_entity": {
+        "tick": true
+      }
+    }
+  }
+}

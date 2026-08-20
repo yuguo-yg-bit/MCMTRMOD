@@ -1,0 +1,33 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"javaImplements": [
+		"SerializedDataBase"
+	],
+	"properties": {
+		"resolution": {
+			"$ref": "blockbenchResolution.json"
+		},
+		"elements": {
+			"type": "array",
+			"items": {
+				"$ref": "blockbenchElement.json"
+			}
+		},
+		"groups": {
+			"type": "array",
+			"items": {
+				"$ref": "blockbenchOutline.json"
+			}
+		},
+		"outliner": {
+			"type": "array",
+			"items": {
+				"$ref": "blockbenchOutline.json"
+			}
+		}
+	},
+	"required": [
+		"resolution"
+	]
+}

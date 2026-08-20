@@ -1,0 +1,240 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.mtr.psd_glass_end",
+        "texture_width": 64,
+        "texture_height": 64
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                0,
+                7
+              ],
+              "size": [
+                16,
+                32,
+                2
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                7
+              ],
+              "size": [
+                16,
+                32,
+                2
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                7
+              ],
+              "size": [
+                16,
+                32,
+                2
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                7
+              ],
+              "size": [
+                16,
+                32,
+                2
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                7
+              ],
+              "size": [
+                16,
+                32,
+                2
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                7
+              ],
+              "size": [
+                16,
+                32,
+                2
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                7
+              ],
+              "size": [
+                16,
+                32,
+                2
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                7
+              ],
+              "size": [
+                16,
+                32,
+                2
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                7
+              ],
+              "size": [
+                16,
+                32,
+                2
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                7
+              ],
+              "size": [
+                16,
+                32,
+                2
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                7
+              ],
+              "size": [
+                16,
+                32,
+                2
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                7
+              ],
+              "size": [
+                16,
+                32,
+                2
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": false,
+              "inflate": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

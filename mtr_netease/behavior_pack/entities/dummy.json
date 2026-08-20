@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mtr:dummy",
+      "is_spawnable": false,
+      "is_summonable": false
+    },
+    "components": {}
+  }
+}

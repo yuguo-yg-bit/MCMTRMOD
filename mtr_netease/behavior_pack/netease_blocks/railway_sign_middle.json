@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mtr:railway_sign_middle",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:destroy_time": {
+        "value": 1.5
+      },
+      "minecraft:explosion_resistance": {
+        "value": 6.0
+      },
+      "netease:aabb": {
+        "collision": {
+          "min": [
+            0.125,
+            0.0,
+            0.0
+          ],
+          "max": [
+            0.875,
+            1.0,
+            0.0625
+          ]
+        },
+        "clip": {
+          "min": [
+            0.125,
+            0.0,
+            0.0
+          ],
+          "max": [
+            0.875,
+            1.0,
+            0.0625
+          ]
+        }
+      },
+      "minecraft:block_light_absorption": {
+        "value": 0
+      },
+      "netease:block_entity": {
+        "tick": true
+      }
+    }
+  }
+}

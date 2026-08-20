@@ -1,0 +1,407 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.mtr.train.door": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "door": {
+          "position": {
+            "0.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        },
+        "door_left": {
+          "position": {
+            "0.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        },
+        "door_right": {
+          "position": {
+            "0.0": [
+              "query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        },
+        "doorway": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "door_floor": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "door_left_exterior": {
+          "position": {
+            "0.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        },
+        "door_right_exterior": {
+          "position": {
+            "0.0": [
+              "query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        },
+        "door_exterior": {
+          "position": {
+            "0.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        },
+        "roof_door": {
+          "position": {
+            "0.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        },
+        "door_light_on": {
+          "scale": {
+            "0.0": [
+              1,
+              1,
+              1
+            ],
+            "1.0": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "door_light_off": {
+          "scale": {
+            "0.0": [
+              1,
+              1,
+              1
+            ],
+            "1.0": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      }
+    },
+    "animation.mtr.train.move": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "bb_main": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.mtr.train.bogie": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "bogie": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              "query.mod.bogie_rotation"
+            ],
+            "1.0": [
+              0,
+              0,
+              "query.mod.bogie_rotation"
+            ]
+          }
+        }
+      }
+    },
+    "animation.mtr.boat.move": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "bb_main": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.mtr.boat.door": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "door": {
+          "position": {
+            "0.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        },
+        "door_left": {
+          "position": {
+            "0.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        },
+        "door_right": {
+          "position": {
+            "0.0": [
+              "query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.mtr.cable_car.move": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "bb_main": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.mtr.cable_car.door": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "door": {
+          "position": {
+            "0.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.mtr.airplane.move": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "bb_main": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.mtr.airplane.door": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "door": {
+          "position": {
+            "0.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.mtr.lift.move": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "bb_main": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.mtr.psd_door.open": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "door_left": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        },
+        "door_right": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              "query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

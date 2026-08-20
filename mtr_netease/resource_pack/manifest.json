@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "MTR Resource Pack",
+    "description": "MTR Metro/Train Mod Resources",
+    "uuid": "d4e5f6a7-b890-1234-cdef-567890abcdef",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 19, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "e5f6a7b8-c901-2345-defa-bcdef0123456",
+      "version": [1, 0, 0]
+    }
+  ]
+}

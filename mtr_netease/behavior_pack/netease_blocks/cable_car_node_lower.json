@@ -1,0 +1,52 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mtr:cable_car_node_lower",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:destroy_time": {
+        "value": 1.5
+      },
+      "minecraft:explosion_resistance": {
+        "value": 6.0
+      },
+      "netease:aabb": {
+        "collision": {
+          "min": [
+            0.0625,
+            0.0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.0625,
+            0.9375
+          ]
+        },
+        "clip": {
+          "min": [
+            0.0625,
+            0.0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.0625,
+            0.9375
+          ]
+        }
+      },
+      "netease:solid": {
+        "value": false
+      },
+      "minecraft:block_light_absorption": {
+        "value": 0
+      },
+      "netease:block_entity": {
+        "tick": true
+      }
+    }
+  }
+}

@@ -1,0 +1,1239 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "mtr:airplane_node": {
+    "sound": "stone",
+    "textures": "airplane_node",
+    "netease_model": "mtr:airplane_node",
+    "client_entity": {
+      "identifier": "mtr:rendering",
+      "hand_model_use_client_entity": true,
+      "block_icon": "airplane_node"
+    }
+  },
+  "mtr:apg_door": {
+    "sound": "stone",
+    "textures": "apg_door",
+    "netease_model": "mtr:apg_door",
+    "client_entity": {
+      "identifier": "mtr:apg_door",
+      "hand_model_use_client_entity": true,
+      "block_icon": "apg_door"
+    }
+  },
+  "mtr:apg_glass": {
+    "sound": "stone",
+    "textures": "apg_glass",
+    "netease_model": "mtr:apg_glass",
+    "client_entity": {
+      "identifier": "mtr:apg_glass",
+      "hand_model_use_client_entity": true,
+      "block_icon": "apg_glass"
+    }
+  },
+  "mtr:apg_glass_end": {
+    "sound": "stone",
+    "textures": "apg_glass_end",
+    "netease_model": "mtr:apg_glass_end",
+    "client_entity": {
+      "identifier": "mtr:apg_glass_end",
+      "hand_model_use_client_entity": true,
+      "block_icon": "apg_glass_end"
+    }
+  },
+  "mtr:arrival_projector_1_large": {
+    "sound": "stone",
+    "textures": "arrival_projector_1_large",
+    "netease_model": "mtr:arrival_projector_1_large",
+    "client_entity": {
+      "identifier": "mtr:arrival_projector",
+      "hand_model_use_client_entity": true,
+      "block_icon": "arrival_projector_1_large"
+    }
+  },
+  "mtr:arrival_projector_1_medium": {
+    "sound": "stone",
+    "textures": "arrival_projector_1_medium",
+    "netease_model": "mtr:arrival_projector_1_medium",
+    "client_entity": {
+      "identifier": "mtr:arrival_projector",
+      "hand_model_use_client_entity": true,
+      "block_icon": "arrival_projector_1_medium"
+    }
+  },
+  "mtr:arrival_projector_1_small": {
+    "sound": "stone",
+    "textures": "arrival_projector_1_small",
+    "netease_model": "mtr:arrival_projector_1_small",
+    "client_entity": {
+      "identifier": "mtr:arrival_projector",
+      "hand_model_use_client_entity": true,
+      "block_icon": "arrival_projector_1_small"
+    }
+  },
+  "mtr:boat_node": {
+    "sound": "stone",
+    "textures": "boat_node",
+    "netease_model": "mtr:boat_node",
+    "client_entity": {
+      "identifier": "mtr:rendering",
+      "hand_model_use_client_entity": true,
+      "block_icon": "boat_node"
+    }
+  },
+  "mtr:cable_car_node_lower": {
+    "sound": "stone",
+    "textures": "cable_car_node_lower",
+    "netease_model": "mtr:cable_car_node_lower",
+    "client_entity": {
+      "identifier": "mtr:rendering",
+      "hand_model_use_client_entity": true,
+      "block_icon": "cable_car_node_lower"
+    }
+  },
+  "mtr:cable_car_node_station": {
+    "sound": "stone",
+    "textures": "cable_car_node_station",
+    "netease_model": "mtr:cable_car_node_station",
+    "client_entity": {
+      "identifier": "mtr:rendering",
+      "hand_model_use_client_entity": true,
+      "block_icon": "cable_car_node_station"
+    }
+  },
+  "mtr:cable_car_node_upper": {
+    "sound": "stone",
+    "textures": "cable_car_node_upper",
+    "netease_model": "mtr:cable_car_node_upper",
+    "client_entity": {
+      "identifier": "mtr:rendering",
+      "hand_model_use_client_entity": true,
+      "block_icon": "cable_car_node_upper"
+    }
+  },
+  "mtr:ceiling": {
+    "sound": "stone",
+    "textures": "ceiling",
+    "netease_model": "mtr:ceiling",
+    "client_entity": {
+      "identifier": "mtr:ceiling",
+      "hand_model_use_client_entity": true,
+      "block_icon": "ceiling"
+    }
+  },
+  "mtr:ceiling_light": {
+    "sound": "stone",
+    "textures": "ceiling_light",
+    "netease_model": "mtr:ceiling_light",
+    "client_entity": {
+      "identifier": "mtr:ceiling",
+      "hand_model_use_client_entity": true,
+      "block_icon": "ceiling_light"
+    }
+  },
+  "mtr:ceiling_no_light": {
+    "sound": "stone",
+    "textures": "ceiling_no_light",
+    "netease_model": "mtr:ceiling_no_light",
+    "client_entity": {
+      "identifier": "mtr:ceiling",
+      "hand_model_use_client_entity": true,
+      "block_icon": "ceiling_no_light"
+    }
+  },
+  "mtr:clock": {
+    "sound": "stone",
+    "textures": "clock",
+    "netease_model": "mtr:clock",
+    "client_entity": {
+      "identifier": "mtr:clock",
+      "hand_model_use_client_entity": true,
+      "block_icon": "clock"
+    }
+  },
+  "mtr:clock_pole": {
+    "sound": "stone",
+    "textures": "clock_pole",
+    "netease_model": "mtr:clock_pole",
+    "client_entity": {
+      "identifier": "mtr:clock_pole",
+      "hand_model_use_client_entity": true,
+      "block_icon": "clock_pole"
+    }
+  },
+  "mtr:escalator_side": {
+    "sound": "stone",
+    "textures": "escalator_side",
+    "netease_model": "mtr:escalator_side",
+    "client_entity": {
+      "identifier": "mtr:escalator_side",
+      "hand_model_use_client_entity": true,
+      "block_icon": "escalator_side"
+    }
+  },
+  "mtr:escalator_step": {
+    "sound": "stone",
+    "textures": "escalator_step",
+    "netease_model": "mtr:escalator_step",
+    "client_entity": {
+      "identifier": "mtr:escalator_step",
+      "hand_model_use_client_entity": true,
+      "block_icon": "escalator_step"
+    }
+  },
+  "mtr:eye_candy": {
+    "sound": "stone",
+    "textures": "eye_candy",
+    "netease_model": "mtr:eye_candy",
+    "client_entity": {
+      "identifier": "mtr:eye_candy",
+      "hand_model_use_client_entity": true,
+      "block_icon": "eye_candy"
+    }
+  },
+  "mtr:lift_buttons_1": {
+    "sound": "stone",
+    "textures": "lift_buttons_1",
+    "netease_model": "mtr:lift_buttons_1",
+    "client_entity": {
+      "identifier": "mtr:lift_panel",
+      "hand_model_use_client_entity": true,
+      "block_icon": "lift_buttons_1"
+    }
+  },
+  "mtr:lift_door_1": {
+    "sound": "stone",
+    "textures": "lift_door_1",
+    "netease_model": "mtr:lift_door_1",
+    "client_entity": {
+      "identifier": "mtr:lift_door",
+      "hand_model_use_client_entity": true,
+      "block_icon": "lift_door_1"
+    }
+  },
+  "mtr:lift_door_odd_1": {
+    "sound": "stone",
+    "textures": "lift_door_odd_1",
+    "netease_model": "mtr:lift_door_odd_1",
+    "client_entity": {
+      "identifier": "mtr:lift_door",
+      "hand_model_use_client_entity": true,
+      "block_icon": "lift_door_odd_1"
+    }
+  },
+  "mtr:lift_panel_even_1": {
+    "sound": "stone",
+    "textures": "lift_panel_even_1",
+    "netease_model": "mtr:lift_panel_even_1",
+    "client_entity": {
+      "identifier": "mtr:lift_panel",
+      "hand_model_use_client_entity": true,
+      "block_icon": "lift_panel_even_1"
+    }
+  },
+  "mtr:lift_panel_even_2": {
+    "sound": "stone",
+    "textures": "lift_panel_even_2",
+    "netease_model": "mtr:lift_panel_even_2",
+    "client_entity": {
+      "identifier": "mtr:lift_panel",
+      "hand_model_use_client_entity": true,
+      "block_icon": "lift_panel_even_2"
+    }
+  },
+  "mtr:lift_panel_odd_1": {
+    "sound": "stone",
+    "textures": "lift_panel_odd_1",
+    "netease_model": "mtr:lift_panel_odd_1",
+    "client_entity": {
+      "identifier": "mtr:lift_panel",
+      "hand_model_use_client_entity": true,
+      "block_icon": "lift_panel_odd_1"
+    }
+  },
+  "mtr:lift_panel_odd_2": {
+    "sound": "stone",
+    "textures": "lift_panel_odd_2",
+    "netease_model": "mtr:lift_panel_odd_2",
+    "client_entity": {
+      "identifier": "mtr:lift_panel",
+      "hand_model_use_client_entity": true,
+      "block_icon": "lift_panel_odd_2"
+    }
+  },
+  "mtr:lift_track_1": {
+    "sound": "stone",
+    "textures": "lift_track_1",
+    "netease_model": "mtr:lift_track_1",
+    "client_entity": {
+      "identifier": "mtr:lift_track",
+      "hand_model_use_client_entity": true,
+      "block_icon": "lift_track_1"
+    }
+  },
+  "mtr:lift_track_diagonal_1": {
+    "sound": "stone",
+    "textures": "lift_track_diagonal_1",
+    "netease_model": "mtr:lift_track_diagonal_1",
+    "client_entity": {
+      "identifier": "mtr:lift_track",
+      "hand_model_use_client_entity": true,
+      "block_icon": "lift_track_diagonal_1"
+    }
+  },
+  "mtr:lift_track_floor_1": {
+    "sound": "stone",
+    "textures": "lift_track_floor_1",
+    "netease_model": "mtr:lift_track_floor_1",
+    "client_entity": {
+      "identifier": "mtr:lift_track",
+      "hand_model_use_client_entity": true,
+      "block_icon": "lift_track_floor_1"
+    }
+  },
+  "mtr:lift_track_horizontal_1": {
+    "sound": "stone",
+    "textures": "lift_track_horizontal_1",
+    "netease_model": "mtr:lift_track_horizontal_1",
+    "client_entity": {
+      "identifier": "mtr:lift_track",
+      "hand_model_use_client_entity": true,
+      "block_icon": "lift_track_horizontal_1"
+    }
+  },
+  "mtr:logo": {
+    "sound": "stone",
+    "textures": "logo",
+    "netease_model": "mtr:logo",
+    "client_entity": {
+      "identifier": "mtr:logo",
+      "hand_model_use_client_entity": true,
+      "block_icon": "logo"
+    }
+  },
+  "mtr:marble_blue": {
+    "sound": "stone",
+    "textures": "marble_blue"
+  },
+  "mtr:marble_blue_low": {
+    "sound": "stone",
+    "textures": "marble_blue_low"
+  },
+  "mtr:marble_blue_middle": {
+    "sound": "stone",
+    "textures": "marble_blue_middle"
+  },
+  "mtr:marble_blue_tall": {
+    "sound": "stone",
+    "textures": "marble_blue_tall"
+  },
+  "mtr:marble_blue_tile": {
+    "sound": "stone",
+    "textures": "marble_blue_tile"
+  },
+  "mtr:marble_blue_very_tall": {
+    "sound": "stone",
+    "textures": "marble_blue_very_tall"
+  },
+  "mtr:marble_blue_very_very_tall": {
+    "sound": "stone",
+    "textures": "marble_blue_very_very_tall"
+  },
+  "mtr:pids_1": {
+    "sound": "stone",
+    "textures": "pids_1",
+    "netease_model": "mtr:pids_1",
+    "client_entity": {
+      "identifier": "mtr:pids",
+      "hand_model_use_client_entity": true,
+      "block_icon": "pids_1"
+    }
+  },
+  "mtr:pids_2": {
+    "sound": "stone",
+    "textures": "pids_2",
+    "netease_model": "mtr:pids_2",
+    "client_entity": {
+      "identifier": "mtr:pids",
+      "hand_model_use_client_entity": true,
+      "block_icon": "pids_2"
+    }
+  },
+  "mtr:pids_3": {
+    "sound": "stone",
+    "textures": "pids_3",
+    "netease_model": "mtr:pids_3",
+    "client_entity": {
+      "identifier": "mtr:pids",
+      "hand_model_use_client_entity": true,
+      "block_icon": "pids_3"
+    }
+  },
+  "mtr:pids_4": {
+    "sound": "stone",
+    "textures": "pids_4",
+    "netease_model": "mtr:pids_4",
+    "client_entity": {
+      "identifier": "mtr:pids",
+      "hand_model_use_client_entity": true,
+      "block_icon": "pids_4"
+    }
+  },
+  "mtr:pids_pole": {
+    "sound": "stone",
+    "textures": "pids_pole",
+    "netease_model": "mtr:pids_pole",
+    "client_entity": {
+      "identifier": "mtr:pids",
+      "hand_model_use_client_entity": true,
+      "block_icon": "pids_pole"
+    }
+  },
+  "mtr:pids_single_arrival_1": {
+    "sound": "stone",
+    "textures": "pids_single_arrival_1",
+    "netease_model": "mtr:pids_single_arrival_1",
+    "client_entity": {
+      "identifier": "mtr:pids",
+      "hand_model_use_client_entity": true,
+      "block_icon": "pids_single_arrival_1"
+    }
+  },
+  "mtr:pids_top": {
+    "sound": "stone",
+    "textures": "pids_top",
+    "netease_model": "mtr:pids_top",
+    "client_entity": {
+      "identifier": "mtr:pids",
+      "hand_model_use_client_entity": true,
+      "block_icon": "pids_top"
+    }
+  },
+  "mtr:pids_top_2": {
+    "sound": "stone",
+    "textures": "pids_top_2",
+    "netease_model": "mtr:pids_top_2",
+    "client_entity": {
+      "identifier": "mtr:pids",
+      "hand_model_use_client_entity": true,
+      "block_icon": "pids_top_2"
+    }
+  },
+  "mtr:pids_top_3": {
+    "sound": "stone",
+    "textures": "pids_top_3",
+    "netease_model": "mtr:pids_top_3",
+    "client_entity": {
+      "identifier": "mtr:pids",
+      "hand_model_use_client_entity": true,
+      "block_icon": "pids_top_3"
+    }
+  },
+  "mtr:pids_top_4": {
+    "sound": "stone",
+    "textures": "pids_top_4",
+    "netease_model": "mtr:pids_top_4",
+    "client_entity": {
+      "identifier": "mtr:pids",
+      "hand_model_use_client_entity": true,
+      "block_icon": "pids_top_4"
+    }
+  },
+  "mtr:platform": {
+    "sound": "stone",
+    "textures": "platform"
+  },
+  "mtr:platform_indented": {
+    "sound": "stone",
+    "textures": "platform_indented"
+  },
+  "mtr:platform_na_1": {
+    "sound": "stone",
+    "textures": "platform_na_1"
+  },
+  "mtr:platform_na_1_indented": {
+    "sound": "stone",
+    "textures": "platform_na_1_indented"
+  },
+  "mtr:platform_na_1_slab": {
+    "sound": "stone",
+    "textures": "platform_na_1_slab",
+    "netease_model": "mtr:platform_na_1_slab"
+  },
+  "mtr:platform_na_2": {
+    "sound": "stone",
+    "textures": "platform_na_2"
+  },
+  "mtr:platform_na_2_indented": {
+    "sound": "stone",
+    "textures": "platform_na_2_indented"
+  },
+  "mtr:platform_na_2_slab": {
+    "sound": "stone",
+    "textures": "platform_na_2_slab",
+    "netease_model": "mtr:platform_na_2_slab"
+  },
+  "mtr:platform_slab": {
+    "sound": "stone",
+    "textures": "platform_slab",
+    "netease_model": "mtr:platform_slab"
+  },
+  "mtr:platform_uk_1": {
+    "sound": "stone",
+    "textures": "platform_uk_1"
+  },
+  "mtr:platform_uk_1_indented": {
+    "sound": "stone",
+    "textures": "platform_uk_1_indented"
+  },
+  "mtr:platform_uk_1_slab": {
+    "sound": "stone",
+    "textures": "platform_uk_1_slab",
+    "netease_model": "mtr:platform_uk_1_slab"
+  },
+  "mtr:psd_door": {
+    "sound": "stone",
+    "textures": "psd_door",
+    "netease_model": "mtr:psd_door",
+    "client_entity": {
+      "identifier": "mtr:psd_door",
+      "hand_model_use_client_entity": true,
+      "block_icon": "psd_door"
+    }
+  },
+  "mtr:psd_door_2": {
+    "sound": "stone",
+    "textures": "psd_door_2",
+    "netease_model": "mtr:psd_door_2",
+    "client_entity": {
+      "identifier": "mtr:psd_door",
+      "hand_model_use_client_entity": true,
+      "block_icon": "psd_door_2"
+    }
+  },
+  "mtr:psd_glass": {
+    "sound": "stone",
+    "textures": "psd_glass",
+    "netease_model": "mtr:psd_glass",
+    "client_entity": {
+      "identifier": "mtr:psd_glass",
+      "hand_model_use_client_entity": true,
+      "block_icon": "psd_glass"
+    }
+  },
+  "mtr:psd_glass_2": {
+    "sound": "stone",
+    "textures": "psd_glass_2",
+    "netease_model": "mtr:psd_glass_2",
+    "client_entity": {
+      "identifier": "mtr:psd_glass",
+      "hand_model_use_client_entity": true,
+      "block_icon": "psd_glass_2"
+    }
+  },
+  "mtr:psd_glass_end": {
+    "sound": "stone",
+    "textures": "psd_glass_end",
+    "netease_model": "mtr:psd_glass_end",
+    "client_entity": {
+      "identifier": "mtr:psd_glass_end",
+      "hand_model_use_client_entity": true,
+      "block_icon": "psd_glass_end"
+    }
+  },
+  "mtr:psd_glass_end_2": {
+    "sound": "stone",
+    "textures": "psd_glass_end_2",
+    "netease_model": "mtr:psd_glass_end_2",
+    "client_entity": {
+      "identifier": "mtr:psd_glass_end",
+      "hand_model_use_client_entity": true,
+      "block_icon": "psd_glass_end_2"
+    }
+  },
+  "mtr:psd_top": {
+    "sound": "stone",
+    "textures": "psd_top",
+    "netease_model": "mtr:psd_top",
+    "client_entity": {
+      "identifier": "mtr:psd_top",
+      "hand_model_use_client_entity": true,
+      "block_icon": "psd_top"
+    }
+  },
+  "mtr:rail": {
+    "sound": "stone",
+    "textures": "rail",
+    "netease_model": "mtr:rail",
+    "client_entity": {
+      "identifier": "mtr:rail",
+      "hand_model_use_client_entity": true,
+      "block_icon": "rail"
+    }
+  },
+  "mtr:railway_sign_2_even": {
+    "sound": "stone",
+    "textures": "railway_sign_2_even",
+    "netease_model": "mtr:railway_sign_2_even",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_2_even"
+    }
+  },
+  "mtr:railway_sign_2_odd": {
+    "sound": "stone",
+    "textures": "railway_sign_2_odd",
+    "netease_model": "mtr:railway_sign_2_odd",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_2_odd"
+    }
+  },
+  "mtr:railway_sign_3_even": {
+    "sound": "stone",
+    "textures": "railway_sign_3_even",
+    "netease_model": "mtr:railway_sign_3_even",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_3_even"
+    }
+  },
+  "mtr:railway_sign_3_odd": {
+    "sound": "stone",
+    "textures": "railway_sign_3_odd",
+    "netease_model": "mtr:railway_sign_3_odd",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_3_odd"
+    }
+  },
+  "mtr:railway_sign_4_even": {
+    "sound": "stone",
+    "textures": "railway_sign_4_even",
+    "netease_model": "mtr:railway_sign_4_even",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_4_even"
+    }
+  },
+  "mtr:railway_sign_4_odd": {
+    "sound": "stone",
+    "textures": "railway_sign_4_odd",
+    "netease_model": "mtr:railway_sign_4_odd",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_4_odd"
+    }
+  },
+  "mtr:railway_sign_5_even": {
+    "sound": "stone",
+    "textures": "railway_sign_5_even",
+    "netease_model": "mtr:railway_sign_5_even",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_5_even"
+    }
+  },
+  "mtr:railway_sign_5_odd": {
+    "sound": "stone",
+    "textures": "railway_sign_5_odd",
+    "netease_model": "mtr:railway_sign_5_odd",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_5_odd"
+    }
+  },
+  "mtr:railway_sign_6_even": {
+    "sound": "stone",
+    "textures": "railway_sign_6_even",
+    "netease_model": "mtr:railway_sign_6_even",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_6_even"
+    }
+  },
+  "mtr:railway_sign_6_odd": {
+    "sound": "stone",
+    "textures": "railway_sign_6_odd",
+    "netease_model": "mtr:railway_sign_6_odd",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_6_odd"
+    }
+  },
+  "mtr:railway_sign_7_even": {
+    "sound": "stone",
+    "textures": "railway_sign_7_even",
+    "netease_model": "mtr:railway_sign_7_even",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_7_even"
+    }
+  },
+  "mtr:railway_sign_7_odd": {
+    "sound": "stone",
+    "textures": "railway_sign_7_odd",
+    "netease_model": "mtr:railway_sign_7_odd",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_7_odd"
+    }
+  },
+  "mtr:railway_sign_middle": {
+    "sound": "stone",
+    "textures": "railway_sign_middle",
+    "netease_model": "mtr:railway_sign_middle",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_middle"
+    }
+  },
+  "mtr:railway_sign_pole": {
+    "sound": "stone",
+    "textures": "railway_sign_pole",
+    "netease_model": "mtr:railway_sign_pole",
+    "client_entity": {
+      "identifier": "mtr:railway_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "railway_sign_pole"
+    }
+  },
+  "mtr:resource_pack_creator": {
+    "sound": "stone",
+    "textures": "resource_pack_creator"
+  },
+  "mtr:route_sign_standing_light": {
+    "sound": "stone",
+    "textures": "route_sign_standing_light",
+    "netease_model": "mtr:route_sign_standing_light",
+    "client_entity": {
+      "identifier": "mtr:route_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "route_sign_standing_light"
+    }
+  },
+  "mtr:route_sign_standing_metal": {
+    "sound": "stone",
+    "textures": "route_sign_standing_metal",
+    "netease_model": "mtr:route_sign_standing_metal",
+    "client_entity": {
+      "identifier": "mtr:route_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "route_sign_standing_metal"
+    }
+  },
+  "mtr:route_sign_wall_light": {
+    "sound": "stone",
+    "textures": "route_sign_wall_light",
+    "netease_model": "mtr:route_sign_wall_light",
+    "client_entity": {
+      "identifier": "mtr:route_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "route_sign_wall_light"
+    }
+  },
+  "mtr:route_sign_wall_metal": {
+    "sound": "stone",
+    "textures": "route_sign_wall_metal",
+    "netease_model": "mtr:route_sign_wall_metal",
+    "client_entity": {
+      "identifier": "mtr:route_sign",
+      "hand_model_use_client_entity": true,
+      "block_icon": "route_sign_wall_metal"
+    }
+  },
+  "mtr:signal_light_1": {
+    "sound": "stone",
+    "textures": "signal_light_1",
+    "netease_model": "mtr:signal_light_1",
+    "client_entity": {
+      "identifier": "mtr:signal_light",
+      "hand_model_use_client_entity": true,
+      "block_icon": "signal_light_1"
+    }
+  },
+  "mtr:signal_light_2": {
+    "sound": "stone",
+    "textures": "signal_light_2",
+    "netease_model": "mtr:signal_light_2",
+    "client_entity": {
+      "identifier": "mtr:signal_light",
+      "hand_model_use_client_entity": true,
+      "block_icon": "signal_light_2"
+    }
+  },
+  "mtr:signal_light_3": {
+    "sound": "stone",
+    "textures": "signal_light_3",
+    "netease_model": "mtr:signal_light_3",
+    "client_entity": {
+      "identifier": "mtr:signal_light",
+      "hand_model_use_client_entity": true,
+      "block_icon": "signal_light_3"
+    }
+  },
+  "mtr:signal_light_3_aspect_1": {
+    "sound": "stone",
+    "textures": "signal_light_3_aspect_1",
+    "netease_model": "mtr:signal_light_3_aspect_1",
+    "client_entity": {
+      "identifier": "mtr:signal_light",
+      "hand_model_use_client_entity": true,
+      "block_icon": "signal_light_3_aspect_1"
+    }
+  },
+  "mtr:signal_light_3_aspect_2": {
+    "sound": "stone",
+    "textures": "signal_light_3_aspect_2",
+    "netease_model": "mtr:signal_light_3_aspect_2",
+    "client_entity": {
+      "identifier": "mtr:signal_light",
+      "hand_model_use_client_entity": true,
+      "block_icon": "signal_light_3_aspect_2"
+    }
+  },
+  "mtr:signal_light_4": {
+    "sound": "stone",
+    "textures": "signal_light_4",
+    "netease_model": "mtr:signal_light_4",
+    "client_entity": {
+      "identifier": "mtr:signal_light",
+      "hand_model_use_client_entity": true,
+      "block_icon": "signal_light_4"
+    }
+  },
+  "mtr:signal_light_4_aspect_1": {
+    "sound": "stone",
+    "textures": "signal_light_4_aspect_1",
+    "netease_model": "mtr:signal_light_4_aspect_1",
+    "client_entity": {
+      "identifier": "mtr:signal_light",
+      "hand_model_use_client_entity": true,
+      "block_icon": "signal_light_4_aspect_1"
+    }
+  },
+  "mtr:signal_light_4_aspect_2": {
+    "sound": "stone",
+    "textures": "signal_light_4_aspect_2",
+    "netease_model": "mtr:signal_light_4_aspect_2",
+    "client_entity": {
+      "identifier": "mtr:signal_light",
+      "hand_model_use_client_entity": true,
+      "block_icon": "signal_light_4_aspect_2"
+    }
+  },
+  "mtr:signal_pole": {
+    "sound": "stone",
+    "textures": "signal_pole",
+    "netease_model": "mtr:signal_pole",
+    "client_entity": {
+      "identifier": "mtr:signal_light",
+      "hand_model_use_client_entity": true,
+      "block_icon": "signal_pole"
+    }
+  },
+  "mtr:signal_semaphore_1": {
+    "sound": "stone",
+    "textures": "signal_semaphore_1",
+    "netease_model": "mtr:signal_semaphore_1",
+    "client_entity": {
+      "identifier": "mtr:signal_light",
+      "hand_model_use_client_entity": true,
+      "block_icon": "signal_semaphore_1"
+    }
+  },
+  "mtr:signal_semaphore_2": {
+    "sound": "stone",
+    "textures": "signal_semaphore_2",
+    "netease_model": "mtr:signal_semaphore_2",
+    "client_entity": {
+      "identifier": "mtr:signal_light",
+      "hand_model_use_client_entity": true,
+      "block_icon": "signal_semaphore_2"
+    }
+  },
+  "mtr:station_color_andesite": {
+    "sound": "stone",
+    "textures": "station_color_andesite"
+  },
+  "mtr:station_color_bedrock": {
+    "sound": "stone",
+    "textures": "station_color_bedrock"
+  },
+  "mtr:station_color_birch_wood": {
+    "sound": "stone",
+    "textures": "station_color_birch_wood"
+  },
+  "mtr:station_color_bone_block": {
+    "sound": "stone",
+    "textures": "station_color_bone_block"
+  },
+  "mtr:station_color_chiseled_quartz_block": {
+    "sound": "stone",
+    "textures": "station_color_chiseled_quartz_block"
+  },
+  "mtr:station_color_chiseled_stone_bricks": {
+    "sound": "stone",
+    "textures": "station_color_chiseled_stone_bricks"
+  },
+  "mtr:station_color_clay": {
+    "sound": "stone",
+    "textures": "station_color_clay"
+  },
+  "mtr:station_color_coal_ore": {
+    "sound": "stone",
+    "textures": "station_color_coal_ore"
+  },
+  "mtr:station_color_cobblestone": {
+    "sound": "stone",
+    "textures": "station_color_cobblestone"
+  },
+  "mtr:station_color_concrete": {
+    "sound": "stone",
+    "textures": "station_color_concrete"
+  },
+  "mtr:station_color_concrete_powder": {
+    "sound": "stone",
+    "textures": "station_color_concrete_powder"
+  },
+  "mtr:station_color_cracked_stone_bricks": {
+    "sound": "stone",
+    "textures": "station_color_cracked_stone_bricks"
+  },
+  "mtr:station_color_dark_prismarine": {
+    "sound": "stone",
+    "textures": "station_color_dark_prismarine"
+  },
+  "mtr:station_color_diorite": {
+    "sound": "stone",
+    "textures": "station_color_diorite"
+  },
+  "mtr:station_color_gravel": {
+    "sound": "stone",
+    "textures": "station_color_gravel"
+  },
+  "mtr:station_color_iron_block": {
+    "sound": "stone",
+    "textures": "station_color_iron_block"
+  },
+  "mtr:station_color_metal": {
+    "sound": "stone",
+    "textures": "station_color_metal"
+  },
+  "mtr:station_color_mossy_stone_bricks": {
+    "sound": "stone",
+    "textures": "station_color_mossy_stone_bricks"
+  },
+  "mtr:station_color_packed_ice": {
+    "sound": "stone",
+    "textures": "station_color_packed_ice"
+  },
+  "mtr:station_color_planks": {
+    "sound": "stone",
+    "textures": "station_color_planks"
+  },
+  "mtr:station_color_polished_andesite": {
+    "sound": "stone",
+    "textures": "station_color_polished_andesite"
+  },
+  "mtr:station_color_polished_diorite": {
+    "sound": "stone",
+    "textures": "station_color_polished_diorite"
+  },
+  "mtr:station_color_polished_granite": {
+    "sound": "stone",
+    "textures": "station_color_polished_granite"
+  },
+  "mtr:station_color_prismarine": {
+    "sound": "stone",
+    "textures": "station_color_prismarine"
+  },
+  "mtr:station_color_purpur_block": {
+    "sound": "stone",
+    "textures": "station_color_purpur_block"
+  },
+  "mtr:station_color_purpur_pillar": {
+    "sound": "stone",
+    "textures": "station_color_purpur_pillar"
+  },
+  "mtr:station_color_quartz_block": {
+    "sound": "stone",
+    "textures": "station_color_quartz_block"
+  },
+  "mtr:station_color_quartz_bricks": {
+    "sound": "stone",
+    "textures": "station_color_quartz_bricks"
+  },
+  "mtr:station_color_quartz_pillar": {
+    "sound": "stone",
+    "textures": "station_color_quartz_pillar"
+  },
+  "mtr:station_color_red_sandstone": {
+    "sound": "stone",
+    "textures": "station_color_red_sandstone"
+  },
+  "mtr:station_color_sandstone": {
+    "sound": "stone",
+    "textures": "station_color_sandstone"
+  },
+  "mtr:station_color_smooth_quartz": {
+    "sound": "stone",
+    "textures": "station_color_smooth_quartz"
+  },
+  "mtr:station_color_smooth_stone": {
+    "sound": "stone",
+    "textures": "station_color_smooth_stone"
+  },
+  "mtr:station_color_snow": {
+    "sound": "stone",
+    "textures": "station_color_snow"
+  },
+  "mtr:station_color_stone": {
+    "sound": "stone",
+    "textures": "station_color_stone"
+  },
+  "mtr:station_color_stone_bricks": {
+    "sound": "stone",
+    "textures": "station_color_stone_bricks"
+  },
+  "mtr:station_color_wool": {
+    "sound": "stone",
+    "textures": "station_color_wool"
+  },
+  "mtr:station_name_entrance": {
+    "sound": "stone",
+    "textures": "station_name_entrance",
+    "netease_model": "mtr:station_name_entrance",
+    "client_entity": {
+      "identifier": "mtr:station_name",
+      "hand_model_use_client_entity": true,
+      "block_icon": "station_name_entrance"
+    }
+  },
+  "mtr:station_name_tall_block": {
+    "sound": "stone",
+    "textures": "station_name_tall_block",
+    "netease_model": "mtr:station_name_tall_block",
+    "client_entity": {
+      "identifier": "mtr:station_name",
+      "hand_model_use_client_entity": true,
+      "block_icon": "station_name_tall_block"
+    }
+  },
+  "mtr:station_name_tall_block_double_sided": {
+    "sound": "stone",
+    "textures": "station_name_tall_block_double_sided",
+    "netease_model": "mtr:station_name_tall_block_double_sided",
+    "client_entity": {
+      "identifier": "mtr:station_name",
+      "hand_model_use_client_entity": true,
+      "block_icon": "station_name_tall_block_double_sided"
+    }
+  },
+  "mtr:station_name_tall_standing": {
+    "sound": "stone",
+    "textures": "station_name_tall_standing",
+    "netease_model": "mtr:station_name_tall_standing",
+    "client_entity": {
+      "identifier": "mtr:station_name",
+      "hand_model_use_client_entity": true,
+      "block_icon": "station_name_tall_standing"
+    }
+  },
+  "mtr:station_name_tall_wall": {
+    "sound": "stone",
+    "textures": "station_name_tall_wall",
+    "netease_model": "mtr:station_name_tall_wall",
+    "client_entity": {
+      "identifier": "mtr:station_name",
+      "hand_model_use_client_entity": true,
+      "block_icon": "station_name_tall_wall"
+    }
+  },
+  "mtr:station_name_wall": {
+    "sound": "stone",
+    "textures": "station_name_wall",
+    "netease_model": "mtr:station_name_wall",
+    "client_entity": {
+      "identifier": "mtr:station_name",
+      "hand_model_use_client_entity": true,
+      "block_icon": "station_name_wall"
+    }
+  },
+  "mtr:station_name_wall_black": {
+    "sound": "stone",
+    "textures": "station_name_wall_black",
+    "netease_model": "mtr:station_name_wall_black",
+    "client_entity": {
+      "identifier": "mtr:station_name",
+      "hand_model_use_client_entity": true,
+      "block_icon": "station_name_wall_black"
+    }
+  },
+  "mtr:station_name_wall_gray": {
+    "sound": "stone",
+    "textures": "station_name_wall_gray",
+    "netease_model": "mtr:station_name_wall_gray",
+    "client_entity": {
+      "identifier": "mtr:station_name",
+      "hand_model_use_client_entity": true,
+      "block_icon": "station_name_wall_gray"
+    }
+  },
+  "mtr:ticket_barrier_entrance_1": {
+    "sound": "stone",
+    "textures": "ticket_barrier_entrance_1",
+    "netease_model": "mtr:ticket_barrier_entrance_1",
+    "client_entity": {
+      "identifier": "mtr:ticket_barrier",
+      "hand_model_use_client_entity": true,
+      "block_icon": "ticket_barrier_entrance_1"
+    }
+  },
+  "mtr:ticket_barrier_exit_1": {
+    "sound": "stone",
+    "textures": "ticket_barrier_exit_1",
+    "netease_model": "mtr:ticket_barrier_exit_1",
+    "client_entity": {
+      "identifier": "mtr:ticket_barrier",
+      "hand_model_use_client_entity": true,
+      "block_icon": "ticket_barrier_exit_1"
+    }
+  },
+  "mtr:ticket_barrier_side_1": {
+    "sound": "stone",
+    "textures": "ticket_barrier_side_1",
+    "netease_model": "mtr:ticket_barrier_side_1",
+    "client_entity": {
+      "identifier": "mtr:ticket_barrier",
+      "hand_model_use_client_entity": true,
+      "block_icon": "ticket_barrier_side_1"
+    }
+  },
+  "mtr:ticket_machine": {
+    "sound": "stone",
+    "textures": "ticket_machine",
+    "netease_model": "mtr:ticket_machine",
+    "client_entity": {
+      "identifier": "mtr:ticket_machine",
+      "hand_model_use_client_entity": true,
+      "block_icon": "ticket_machine"
+    }
+  },
+  "mtr:ticket_processor": {
+    "sound": "stone",
+    "textures": "ticket_processor",
+    "netease_model": "mtr:ticket_processor",
+    "client_entity": {
+      "identifier": "mtr:ticket_machine",
+      "hand_model_use_client_entity": true,
+      "block_icon": "ticket_processor"
+    }
+  },
+  "mtr:ticket_processor_enquiry": {
+    "sound": "stone",
+    "textures": "ticket_processor_enquiry",
+    "netease_model": "mtr:ticket_processor_enquiry",
+    "client_entity": {
+      "identifier": "mtr:ticket_barrier",
+      "hand_model_use_client_entity": true,
+      "block_icon": "ticket_processor_enquiry"
+    }
+  },
+  "mtr:ticket_processor_entrance": {
+    "sound": "stone",
+    "textures": "ticket_processor_entrance",
+    "netease_model": "mtr:ticket_processor_entrance",
+    "client_entity": {
+      "identifier": "mtr:ticket_barrier",
+      "hand_model_use_client_entity": true,
+      "block_icon": "ticket_processor_entrance"
+    }
+  },
+  "mtr:ticket_processor_exit": {
+    "sound": "stone",
+    "textures": "ticket_processor_exit",
+    "netease_model": "mtr:ticket_processor_exit",
+    "client_entity": {
+      "identifier": "mtr:ticket_barrier",
+      "hand_model_use_client_entity": true,
+      "block_icon": "ticket_processor_exit"
+    }
+  },
+  "mtr:train_announcer": {
+    "sound": "stone",
+    "textures": "train_announcer",
+    "netease_model": "mtr:train_announcer",
+    "client_entity": {
+      "identifier": "mtr:train_announcer",
+      "hand_model_use_client_entity": true,
+      "block_icon": "train_announcer"
+    }
+  },
+  "mtr:train_cargo_loader": {
+    "sound": "stone",
+    "textures": "train_cargo_loader",
+    "netease_model": "mtr:train_cargo_loader",
+    "client_entity": {
+      "identifier": "mtr:train_sensor",
+      "hand_model_use_client_entity": true,
+      "block_icon": "train_cargo_loader"
+    }
+  },
+  "mtr:train_cargo_unloader": {
+    "sound": "stone",
+    "textures": "train_cargo_unloader",
+    "netease_model": "mtr:train_cargo_unloader",
+    "client_entity": {
+      "identifier": "mtr:train_sensor",
+      "hand_model_use_client_entity": true,
+      "block_icon": "train_cargo_unloader"
+    }
+  },
+  "mtr:train_redstone_sensor": {
+    "sound": "stone",
+    "textures": "train_redstone_sensor",
+    "netease_model": "mtr:train_redstone_sensor",
+    "client_entity": {
+      "identifier": "mtr:train_sensor",
+      "hand_model_use_client_entity": true,
+      "block_icon": "train_redstone_sensor"
+    }
+  },
+  "mtr:train_redstone_sensor_2": {
+    "sound": "stone",
+    "textures": "train_redstone_sensor_2",
+    "netease_model": "mtr:train_redstone_sensor_2",
+    "client_entity": {
+      "identifier": "mtr:train_sensor",
+      "hand_model_use_client_entity": true,
+      "block_icon": "train_redstone_sensor_2"
+    }
+  },
+  "mtr:train_schedule_sensor": {
+    "sound": "stone",
+    "textures": "train_schedule_sensor",
+    "netease_model": "mtr:train_schedule_sensor",
+    "client_entity": {
+      "identifier": "mtr:train_sensor",
+      "hand_model_use_client_entity": true,
+      "block_icon": "train_schedule_sensor"
+    }
+  }
+}

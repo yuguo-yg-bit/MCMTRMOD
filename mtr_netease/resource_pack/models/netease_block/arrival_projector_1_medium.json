@@ -1,0 +1,109 @@
+{
+  "format_version": "1.13.0",
+  "netease:block_geometry": {
+    "description": {
+      "identifier": "mtr:arrival_projector_1_medium",
+      "textures": [
+        "arrival_projector_1_medium"
+      ],
+      "use_ao": true,
+      "textures_descriptions": [
+        {
+          "width": 16,
+          "length": 16
+        }
+      ]
+    },
+    "bones": [
+      {
+        "name": "root",
+        "pivot": [
+          8,
+          8,
+          8
+        ],
+        "cubes": [
+          {
+            "origin": [
+              0,
+              0,
+              7
+            ],
+            "size": [
+              16,
+              16,
+              2
+            ],
+            "pivot": [
+              8,
+              8,
+              8
+            ],
+            "uv": {
+              "north": {
+                "uv": [
+                  0,
+                  0
+                ],
+                "uv_size": [
+                  16,
+                  16
+                ]
+              },
+              "south": {
+                "uv": [
+                  0,
+                  0
+                ],
+                "uv_size": [
+                  16,
+                  16
+                ]
+              },
+              "east": {
+                "uv": [
+                  0,
+                  0
+                ],
+                "uv_size": [
+                  2,
+                  16
+                ]
+              },
+              "west": {
+                "uv": [
+                  0,
+                  0
+                ],
+                "uv_size": [
+                  2,
+                  16
+                ]
+              },
+              "up": {
+                "uv": [
+                  0,
+                  0
+                ],
+                "uv_size": [
+                  16,
+                  2
+                ]
+              },
+              "down": {
+                "uv": [
+                  0,
+                  0
+                ],
+                "uv_size": [
+                  16,
+                  2
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

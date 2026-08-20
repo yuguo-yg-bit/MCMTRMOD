@@ -126,6 +126,11 @@ class BlockEntityRenderManager:
             "mtr:cable_car_node_lower": "mtr:rendering",
             "mtr:cable_car_node_station": "mtr:rendering",
             "mtr:cable_car_node_upper": "mtr:rendering",
+            "mtr:rubbish_bin": "mtr:rubbish_bin",
+            "mtr:glass_fence": "mtr:glass_fence",
+            "mtr:tactile_map": "mtr:tactile_map",
+            "mtr:driver_key_dispenser": "mtr:driver_key_dispenser",
+            "mtr:station_color": "mtr:station_color",
         }
 
     def on_block_entity_loaded(self, pos, block_name, dimension, extra_data=None):

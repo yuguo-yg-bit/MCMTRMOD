@@ -316,31 +316,38 @@
   },
   "mtr:marble_blue": {
     "sound": "stone",
-    "textures": "marble_blue"
+    "textures": "marble_blue",
+    "netease_model": "mtr:marble_blue"
   },
   "mtr:marble_blue_low": {
     "sound": "stone",
-    "textures": "marble_blue_low"
+    "textures": "marble_blue_low",
+    "netease_model": "mtr:marble_blue_low"
   },
   "mtr:marble_blue_middle": {
     "sound": "stone",
-    "textures": "marble_blue_middle"
+    "textures": "marble_blue_middle",
+    "netease_model": "mtr:marble_blue_middle"
   },
   "mtr:marble_blue_tall": {
     "sound": "stone",
-    "textures": "marble_blue_tall"
+    "textures": "marble_blue_tall",
+    "netease_model": "mtr:marble_blue_tall"
   },
   "mtr:marble_blue_tile": {
     "sound": "stone",
-    "textures": "marble_blue_tile"
+    "textures": "marble_blue_tile",
+    "netease_model": "mtr:marble_blue_tile"
   },
   "mtr:marble_blue_very_tall": {
     "sound": "stone",
-    "textures": "marble_blue_very_tall"
+    "textures": "marble_blue_very_tall",
+    "netease_model": "mtr:marble_blue_very_tall"
   },
   "mtr:marble_blue_very_very_tall": {
     "sound": "stone",
-    "textures": "marble_blue_very_very_tall"
+    "textures": "marble_blue_very_very_tall",
+    "netease_model": "mtr:marble_blue_very_very_tall"
   },
   "mtr:pids_1": {
     "sound": "stone",
@@ -444,55 +451,123 @@
   },
   "mtr:platform": {
     "sound": "stone",
-    "textures": "platform"
+    "textures": "platform",
+    "netease_model": "mtr:platform",
+    "client_entity": {
+      "identifier": "mtr:platform",
+      "hand_model_use_client_entity": true,
+      "block_icon": "platform"
+    }
   },
   "mtr:platform_indented": {
     "sound": "stone",
-    "textures": "platform_indented"
+    "textures": "platform_indented",
+    "netease_model": "mtr:platform_indented",
+    "client_entity": {
+      "identifier": "mtr:platform",
+      "hand_model_use_client_entity": true,
+      "block_icon": "platform_indented"
+    }
   },
   "mtr:platform_na_1": {
     "sound": "stone",
-    "textures": "platform_na_1"
+    "textures": "platform_na_1",
+    "netease_model": "mtr:platform_na_1",
+    "client_entity": {
+      "identifier": "mtr:platform",
+      "hand_model_use_client_entity": true,
+      "block_icon": "platform_na_1"
+    }
   },
   "mtr:platform_na_1_indented": {
     "sound": "stone",
-    "textures": "platform_na_1_indented"
+    "textures": "platform_na_1_indented",
+    "netease_model": "mtr:platform_na_1_indented",
+    "client_entity": {
+      "identifier": "mtr:platform",
+      "hand_model_use_client_entity": true,
+      "block_icon": "platform_na_1_indented"
+    }
   },
   "mtr:platform_na_1_slab": {
     "sound": "stone",
     "textures": "platform_na_1_slab",
-    "netease_model": "mtr:platform_na_1_slab"
+    "netease_model": "mtr:platform_na_1_slab",
+    "client_entity": {
+      "identifier": "mtr:platform",
+      "hand_model_use_client_entity": true,
+      "block_icon": "platform_na_1_slab"
+    }
   },
   "mtr:platform_na_2": {
     "sound": "stone",
-    "textures": "platform_na_2"
+    "textures": "platform_na_2",
+    "netease_model": "mtr:platform_na_2",
+    "client_entity": {
+      "identifier": "mtr:platform",
+      "hand_model_use_client_entity": true,
+      "block_icon": "platform_na_2"
+    }
   },
   "mtr:platform_na_2_indented": {
     "sound": "stone",
-    "textures": "platform_na_2_indented"
+    "textures": "platform_na_2_indented",
+    "netease_model": "mtr:platform_na_2_indented",
+    "client_entity": {
+      "identifier": "mtr:platform",
+      "hand_model_use_client_entity": true,
+      "block_icon": "platform_na_2_indented"
+    }
   },
   "mtr:platform_na_2_slab": {
     "sound": "stone",
     "textures": "platform_na_2_slab",
-    "netease_model": "mtr:platform_na_2_slab"
+    "netease_model": "mtr:platform_na_2_slab",
+    "client_entity": {
+      "identifier": "mtr:platform",
+      "hand_model_use_client_entity": true,
+      "block_icon": "platform_na_2_slab"
+    }
   },
   "mtr:platform_slab": {
     "sound": "stone",
     "textures": "platform_slab",
-    "netease_model": "mtr:platform_slab"
+    "netease_model": "mtr:platform_slab",
+    "client_entity": {
+      "identifier": "mtr:platform",
+      "hand_model_use_client_entity": true,
+      "block_icon": "platform_slab"
+    }
   },
   "mtr:platform_uk_1": {
     "sound": "stone",
-    "textures": "platform_uk_1"
+    "textures": "platform_uk_1",
+    "netease_model": "mtr:platform_uk_1",
+    "client_entity": {
+      "identifier": "mtr:platform",
+      "hand_model_use_client_entity": true,
+      "block_icon": "platform_uk_1"
+    }
   },
   "mtr:platform_uk_1_indented": {
     "sound": "stone",
-    "textures": "platform_uk_1_indented"
+    "textures": "platform_uk_1_indented",
+    "netease_model": "mtr:platform_uk_1_indented",
+    "client_entity": {
+      "identifier": "mtr:platform",
+      "hand_model_use_client_entity": true,
+      "block_icon": "platform_uk_1_indented"
+    }
   },
   "mtr:platform_uk_1_slab": {
     "sound": "stone",
     "textures": "platform_uk_1_slab",
-    "netease_model": "mtr:platform_uk_1_slab"
+    "netease_model": "mtr:platform_uk_1_slab",
+    "client_entity": {
+      "identifier": "mtr:platform",
+      "hand_model_use_client_entity": true,
+      "block_icon": "platform_uk_1_slab"
+    }
   },
   "mtr:psd_door": {
     "sound": "stone",
@@ -716,7 +791,8 @@
   },
   "mtr:resource_pack_creator": {
     "sound": "stone",
-    "textures": "resource_pack_creator"
+    "textures": "resource_pack_creator",
+    "netease_model": "mtr:resource_pack_creator"
   },
   "mtr:route_sign_standing_light": {
     "sound": "stone",
@@ -1234,6 +1310,56 @@
       "identifier": "mtr:train_sensor",
       "hand_model_use_client_entity": true,
       "block_icon": "train_schedule_sensor"
+    }
+  },
+  "mtr:rubbish_bin": {
+    "sound": "stone",
+    "textures": "rubbish_bin",
+    "netease_model": "mtr:rubbish_bin",
+    "client_entity": {
+      "identifier": "mtr:rubbish_bin",
+      "hand_model_use_client_entity": true,
+      "block_icon": "rubbish_bin"
+    }
+  },
+  "mtr:glass_fence": {
+    "sound": "stone",
+    "textures": "glass_fence",
+    "netease_model": "mtr:glass_fence",
+    "client_entity": {
+      "identifier": "mtr:glass_fence",
+      "hand_model_use_client_entity": true,
+      "block_icon": "glass_fence"
+    }
+  },
+  "mtr:tactile_map": {
+    "sound": "stone",
+    "textures": "tactile_map",
+    "netease_model": "mtr:tactile_map",
+    "client_entity": {
+      "identifier": "mtr:tactile_map",
+      "hand_model_use_client_entity": true,
+      "block_icon": "tactile_map"
+    }
+  },
+  "mtr:driver_key_dispenser": {
+    "sound": "stone",
+    "textures": "driver_key_dispenser",
+    "netease_model": "mtr:driver_key_dispenser",
+    "client_entity": {
+      "identifier": "mtr:driver_key_dispenser",
+      "hand_model_use_client_entity": true,
+      "block_icon": "driver_key_dispenser"
+    }
+  },
+  "mtr:station_color": {
+    "sound": "stone",
+    "textures": "station_color",
+    "netease_model": "mtr:station_color",
+    "client_entity": {
+      "identifier": "mtr:station_color",
+      "hand_model_use_client_entity": true,
+      "block_icon": "station_color"
     }
   }
 }

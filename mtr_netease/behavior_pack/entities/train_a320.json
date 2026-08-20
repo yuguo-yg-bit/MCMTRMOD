@@ -4,42 +4,24 @@
     "description": {
       "identifier": "mtr:train_a320",
       "is_spawnable": false,
-      "is_summonable": true,
+      "is_summonable": false,
       "is_experimental": false
     },
     "components": {
-      "minecraft:type_family": {
-        "family": [
-          "mtr",
-          "train"
-        ]
-      },
       "minecraft:physics": {
         "has_gravity": false
       },
       "minecraft:collision_box": {
-        "width": 2.0,
-        "height": 2.0
-      },
-      "minecraft:pushable": {
-        "is_pushable": false,
-        "is_pushable_by_piston": false
+        "width": 0.0,
+        "height": 0.0
       },
       "minecraft:damage_sensor": {
-        "triggers": {
-          "cause": "all",
-          "deals_damage": false
-        }
-      },
-      "minecraft:health": {
-        "value": 999999,
-        "max": 999999
-      },
-      "minecraft:nameable": {
-        "allow_name_tag_renaming": false
-      },
-      "minecraft:persistent": {},
-      "minecraft:fire_immune": true
+        "triggers": [
+          {
+            "deals_damage": false
+          }
+        ]
+      }
     }
   }
 }

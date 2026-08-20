@@ -4,42 +4,13 @@
     "description": {
       "identifier": "mtr:cable_car_grip",
       "is_spawnable": false,
-      "is_summonable": true,
+      "is_summonable": false,
       "is_experimental": false
     },
     "components": {
-      "minecraft:type_family": {
-        "family": [
-          "mtr",
-          "cable_car"
-        ]
-      },
-      "minecraft:physics": {
-        "has_gravity": false
-      },
-      "minecraft:collision_box": {
-        "width": 1.0,
-        "height": 1.0
-      },
-      "minecraft:pushable": {
-        "is_pushable": false,
-        "is_pushable_by_piston": false
-      },
-      "minecraft:damage_sensor": {
-        "triggers": {
-          "cause": "all",
-          "deals_damage": false
-        }
-      },
-      "minecraft:health": {
-        "value": 999999,
-        "max": 999999
-      },
-      "minecraft:nameable": {
-        "allow_name_tag_renaming": false
-      },
-      "minecraft:persistent": {},
-      "minecraft:fire_immune": true
+      "minecraft:physics": { "has_gravity": false },
+      "minecraft:collision_box": { "width": 0.0, "height": 0.0 },
+      "minecraft:damage_sensor": { "triggers": [{ "deals_damage": false }] }
     }
   }
 }

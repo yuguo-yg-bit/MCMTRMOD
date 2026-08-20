@@ -8,12 +8,6 @@
       "is_experimental": false
     },
     "components": {
-      "minecraft:type_family": {
-        "family": [
-          "mtr",
-          "block_entity"
-        ]
-      },
       "minecraft:physics": {
         "has_gravity": false
       },
@@ -21,25 +15,13 @@
         "width": 0.0,
         "height": 0.0
       },
-      "minecraft:pushable": {
-        "is_pushable": false,
-        "is_pushable_by_piston": false
-      },
       "minecraft:damage_sensor": {
-        "triggers": {
-          "cause": "all",
-          "deals_damage": false
-        }
-      },
-      "minecraft:health": {
-        "value": 999999,
-        "max": 999999
-      },
-      "minecraft:nameable": {
-        "allow_name_tag_renaming": false
-      },
-      "minecraft:persistent": {},
-      "minecraft:fire_immune": true
+        "triggers": [
+          {
+            "deals_damage": false
+          }
+        ]
+      }
     }
   }
 }

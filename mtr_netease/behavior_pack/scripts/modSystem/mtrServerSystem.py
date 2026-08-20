@@ -65,6 +65,7 @@ class MTRServerSystem(serverApi.ServerSystem):
         self.active_trains = {}  # TrainId -> TrainData
         self.train_positions = {}  # TrainId -> (pos, rot, speed)
         self.train_door_states = {}  # TrainId -> door_open_state
+        self.train_entities = {}  # TrainId -> entityId (entity spawned for rendering)
 
         # PSD/APG door states (from Java BlockPSDDoor/BlockAPGDoor)
         self.psd_door_states = {}  # Position -> door_open_state
@@ -116,6 +117,8 @@ class MTRServerSystem(serverApi.ServerSystem):
 
     def Destroy(self):
         print("[MTR Server] System shutting down, saving data...")
+        for train_id in list(self.train_entities.keys()):
+            self._despawn_train_entity(train_id)
         self.entity_manager.cleanup_all()
         self._save_all_data()
         super(MTRServerSystem, self).Destroy()
@@ -307,17 +310,63 @@ class MTRServerSystem(serverApi.ServerSystem):
     def _on_depot_generate(self, event):
         """Handle depot generation (from Java PacketDepotGenerate / DepotOperationByName)"""
         depot_name = event.get("depotName", "")
-        print("[MTR] Generating depot: " + depot_name)
+        train_type = event.get("trainType", "mtr:train_sp1900")
+        pos = event.get("position", (0, 0, 0))
+        dimension = event.get("dimension", 0)
+        train_id = "depot_%s_%d" % (depot_name, len(self.active_trains))
+        print("[MTR] Generating depot: %s train=%s type=%s" % (depot_name, train_id, train_type))
+        self.active_trains[train_id] = {
+            "train_id": train_id,
+            "train_type": train_type,
+            "position": pos,
+            "rotation": (0.0, 0.0, 0.0),
+            "speed": 0,
+            "max_speed": 80,
+            "acceleration": 0.5,
+            "brake_force": 1.0,
+            "doors_open": False,
+            "is_braking": False,
+            "at_station": False,
+            "path": [],
+            "path_index": 0,
+            "destination": depot_name,
+        }
+        self._spawn_train_entity(train_id, train_type, pos, dimension)
 
     def _on_depot_clear(self, event):
         """Handle depot clear (from Java PacketDepotClear)"""
         depot_name = event.get("depotName", "")
         print("[MTR] Clearing depot: " + depot_name)
+        for train_id in list(self.active_trains.keys()):
+            if train_id.startswith("depot_%s" % depot_name):
+                self._despawn_train_entity(train_id)
+                del self.active_trains[train_id]
 
     def _on_depot_instant_deploy(self, event):
         """Handle instant depot deployment (from Java PacketDepotInstantDeploy)"""
         depot_name = event.get("depotName", "")
-        print("[MTR] Instant deploying depot: " + depot_name)
+        train_type = event.get("trainType", "mtr:train_sp1900")
+        pos = event.get("position", (0, 0, 0))
+        dimension = event.get("dimension", 0)
+        train_id = "depot_%s_%d" % (depot_name, len(self.active_trains))
+        print("[MTR] Instant deploying depot: %s train=%s type=%s" % (depot_name, train_id, train_type))
+        self.active_trains[train_id] = {
+            "train_id": train_id,
+            "train_type": train_type,
+            "position": pos,
+            "rotation": (0.0, 0.0, 0.0),
+            "speed": 0,
+            "max_speed": 80,
+            "acceleration": 0.5,
+            "brake_force": 1.0,
+            "doors_open": False,
+            "is_braking": False,
+            "at_station": False,
+            "path": [],
+            "path_index": 0,
+            "destination": depot_name,
+        }
+        self._spawn_train_entity(train_id, train_type, pos, dimension)
 
     # ==========================================
     # Core Logic: Train Movement System
@@ -345,6 +394,9 @@ class MTRServerSystem(serverApi.ServerSystem):
 
             # Update train position for rendering
             self._sync_train_position(train_id, train)
+
+            # Sync entity position if spawned
+            self._sync_train_entity(train_id, train)
 
     def _calculate_train_speed(self, train_id, train):
         """Calculate train speed based on current rail type, signals, and controls
@@ -428,6 +480,50 @@ class MTRServerSystem(serverApi.ServerSystem):
                 "speed": train.get("speed", 0),
                 "doorsOpen": train.get("doors_open", False)
             })
+
+    def _sync_train_entity(self, train_id, train):
+        """Sync entity position for rendering"""
+        if train_id not in self.train_entities:
+            return
+        entity_id = self.train_entities[train_id]
+        pos = train.get("position", (0, 0, 0))
+        rotation = train.get("rotation", (0.0, 0.0, 0.0))
+        try:
+            comp = serverApi.GetEngineCompFactory()
+            posComp = comp.CreatePos(entity_id)
+            if posComp:
+                posComp.SetPos(pos)
+            rotComp = comp.CreateRot(entity_id)
+            if rotComp:
+                rotComp.SetRot(rotation)
+        except Exception as e:
+            print("[MTR Train] Failed to sync entity pos for %s: %s" % (train_id, e))
+
+    def _spawn_train_entity(self, train_id, train_type, pos, dimension):
+        """Spawn a train entity for rendering"""
+        if train_id in self.train_entities:
+            self._despawn_train_entity(train_id)
+        try:
+            entity_id = serverApi.CreateEngineEntityByTypeStr(
+                train_type, pos, (0.0, 0.0, 0.0), dimension
+            )
+            if entity_id:
+                self.train_entities[train_id] = entity_id
+                print("[MTR Train] Spawned %s at %s id=%s" % (train_type, pos, entity_id))
+        except Exception as e:
+            print("[MTR Train] Failed to spawn %s: %s" % (train_type, e))
+
+    def _despawn_train_entity(self, train_id):
+        """Destroy a train entity"""
+        if train_id not in self.train_entities:
+            return
+        try:
+            entity_id = self.train_entities[train_id]
+            serverApi.DestroyEntity(entity_id)
+            del self.train_entities[train_id]
+            print("[MTR Train] Despawned train %s entity=%s" % (train_id, entity_id))
+        except Exception as e:
+            print("[MTR Train] Failed to despawn %s: %s" % (train_id, e))
 
     # ==========================================
     # Core Logic: Signal System

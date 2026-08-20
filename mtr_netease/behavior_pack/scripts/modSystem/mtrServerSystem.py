@@ -84,6 +84,7 @@ class MTRServerSystem(serverApi.ServerSystem):
 
         print("[MTR Server] Server system initialized")
         self._initialize_events()
+        self._register_commands()
 
     def _initialize_events(self):
         """Initialize all event listeners (from Java Init.java event registry)"""
@@ -306,6 +307,37 @@ class MTRServerSystem(serverApi.ServerSystem):
     def _on_delete_data(self, event):
         """Handle data deletion (from Java PacketDeleteData)"""
         pass
+
+    def _register_commands(self):
+        """Register debug/test commands"""
+        serverApi.RegisterCommand("mtr_spawn_train", "生成测试列车", self._on_spawn_train_command)
+
+    def _on_spawn_train_command(self, player_id, args):
+        """Handle /mtr_spawn_train command"""
+        if not args:
+            serverApi.NotifyToClient(player_id, "MtrChatMessage", {"message": "用法: /mtr_spawn_train <类型> 如: sp1900"})
+            return
+        train_type_key = args[0].lower()
+        train_type = "mtr:train_" + train_type_key
+        comp = serverApi.GetEngineCompFactory()
+        player_comp = comp.CreatePlayer(player_id)
+        if not player_comp:
+            return
+        player_pos = player_comp.GetPos()
+        dimension = 0
+        dimension_comp = comp.CreateDimension(player_id)
+        if dimension_comp:
+            dimension = dimension_comp.GetEntityDimensionId()
+        train_id = "cmd_%s_%d" % (train_type_key, len(self.active_trains))
+        self.active_trains[train_id] = {
+            "train_id": train_id, "train_type": train_type,
+            "position": player_pos, "rotation": (0.0, 0.0, 0.0),
+            "speed": 0, "max_speed": 80, "acceleration": 0.5, "brake_force": 1.0,
+            "doors_open": False, "is_braking": False, "at_station": False,
+            "path": [], "path_index": 0, "destination": "Command",
+        }
+        self._spawn_train_entity(train_id, train_type, player_pos, dimension)
+        serverApi.NotifyToClient(player_id, "MtrChatMessage", {"message": "生成列车: %s (id=%s)" % (train_type, train_id)})
 
     def _on_depot_generate(self, event):
         """Handle depot generation (from Java PacketDepotGenerate / DepotOperationByName)"""

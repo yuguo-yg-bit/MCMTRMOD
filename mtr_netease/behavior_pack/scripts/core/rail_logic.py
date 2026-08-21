@@ -22,8 +22,6 @@ RAIL_TYPES = {
     "siding": {"speed": 0, "name": "Siding", "item": "mtr:rail"},
     "turn_back": {"speed": 0, "name": "Turn Back", "item": "mtr:rail"},
     "connector": {"speed": 0, "name": "Rail Connector", "item": "mtr:rail"},
-    "cable_car": {"speed": 0, "name": "Cable Car", "item": "mtr:cable_car_node_lower"},
-    "runway": {"speed": 0, "name": "Runway", "item": "mtr:airplane_node"},
 }
 
 # ==========================================
@@ -31,9 +29,6 @@ RAIL_TYPES = {
 # ==========================================
 TRANSPORT_MODES = {
     "TRAIN": {"name": "Train", "item": "mtr:dashboard"},
-    "BOAT": {"name": "Boat", "item": "mtr:dashboard_2"},
-    "CABLE_CAR": {"name": "Cable Car", "item": "mtr:dashboard_3"},
-    "AIRPLANE": {"name": "Airplane", "item": "mtr:dashboard_4"},
 }
 
 # ==========================================
@@ -63,37 +58,7 @@ NODE_TYPES = {
         "isContinuousMovement": False,
         "isStation": False,
     },
-    "BOAT_NODE": {
-        "block": "mtr:boat_node",
-        "transportMode": "BOAT",
-        "isContinuousMovement": False,
-        "isStation": False,
-    },
-    "CABLE_CAR_NODE_LOWER": {
-        "block": "mtr:cable_car_node_lower",
-        "transportMode": "CABLE_CAR",
-        "isContinuousMovement": True,
-        "isStation": False,
-    },
-    "CABLE_CAR_NODE_UPPER": {
-        "block": "mtr:cable_car_node_upper",
-        "transportMode": "CABLE_CAR",
-        "isContinuousMovement": True,
-        "isStation": False,
-    },
-    "CABLE_CAR_NODE_STATION": {
-        "block": "mtr:cable_car_node_station",
-        "transportMode": "CABLE_CAR",
-        "isContinuousMovement": True,
-        "isStation": True,
-    },
-    "AIRPLANE_NODE": {
-        "block": "mtr:airplane_node",
-        "transportMode": "AIRPLANE",
-        "isContinuousMovement": False,
-        "isStation": False,
-    },
-}
+    }
 
 # ==========================================
 # Rail Connection Logic

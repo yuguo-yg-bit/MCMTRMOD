@@ -26,7 +26,6 @@ class MTRServerSystem(serverApi.ServerSystem):
         "bricks": 100, "obsidian": 120, "prismarine": 140, "blaze": 160,
         "quartz": 200, "diamond": 300,
         "platform": 0, "siding": 0, "turn_back": 0,
-        "cable_car": 0, "runway": 0
     }
 
     def __init__(self, namespace, systemName):

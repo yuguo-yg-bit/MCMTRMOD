@@ -22,27 +22,6 @@ ENTITY_TYPES = {
         "summonable": False,
         "hasSpawnEgg": False,
     },
-    "BOAT_VEHICLE": {
-        "type": "boat",
-        "identifier": "mtr:boat_vehicle",
-        "clientOnly": False,
-        "summonable": False,
-        "hasSpawnEgg": False,
-    },
-    "CABLE_CAR": {
-        "type": "cable_car",
-        "identifier": "mtr:cable_car",
-        "clientOnly": False,
-        "summonable": False,
-        "hasSpawnEgg": False,
-    },
-    "AIRPLANE": {
-        "type": "airplane",
-        "identifier": "mtr:airplane",
-        "clientOnly": False,
-        "summonable": False,
-        "hasSpawnEgg": False,
-    },
     "LIFT": {
         "type": "lift",
         "identifier": "mtr:lift",
@@ -171,73 +150,7 @@ TRAIN_MODEL_TYPES = {
             "door": "textures/entity/train/high_speed_door.png",
         },
     },
-    "cable_car": {
-        "length": 8.0,
-        "width": 2.0,
-        "height": 2.5,
-        "maxSpeed": 20.0,
-        "acceleration": 0.3,
-        "brakeForce": 0.5,
-        "doorCount": 1,
-        "doorWidth": 1.0,
-        "doorHeight": 1.8,
-        "passengerCapacity": 8,
-        "modelPaths": {
-            "train": "models/cable_car/cabin.geo.json",
-            "door": "models/cable_car/door.geo.json",
-            "interior": "models/cable_car/interior.geo.json",
-        },
-        "texturePaths": {
-            "exterior": "textures/entity/cable_car/exterior.png",
-            "interior": "textures/entity/cable_car/interior.png",
-            "door": "textures/entity/cable_car/door.png",
-        },
-    },
-    "boat": {
-        "length": 15.0,
-        "width": 4.0,
-        "height": 3.0,
-        "maxSpeed": 30.0,
-        "acceleration": 0.2,
-        "brakeForce": 0.3,
-        "doorCount": 2,
-        "doorWidth": 1.2,
-        "doorHeight": 1.8,
-        "passengerCapacity": 50,
-        "modelPaths": {
-            "train": "models/boat/ferry.geo.json",
-            "door": "models/boat/door.geo.json",
-            "interior": "models/boat/interior.geo.json",
-        },
-        "texturePaths": {
-            "exterior": "textures/entity/boat/exterior.png",
-            "interior": "textures/entity/boat/interior.png",
-            "door": "textures/entity/boat/door.png",
-        },
-    },
-    "airplane": {
-        "length": 30.0,
-        "width": 3.5,
-        "height": 4.0,
-        "maxSpeed": 200.0,
-        "acceleration": 1.5,
-        "brakeForce": 2.0,
-        "doorCount": 2,
-        "doorWidth": 1.0,
-        "doorHeight": 1.8,
-        "passengerCapacity": 150,
-        "modelPaths": {
-            "train": "models/airplane/plane.geo.json",
-            "door": "models/airplane/door.geo.json",
-            "interior": "models/airplane/interior.geo.json",
-        },
-        "texturePaths": {
-            "exterior": "textures/entity/airplane/exterior.png",
-            "interior": "textures/entity/airplane/interior.png",
-            "door": "textures/entity/airplane/door.png",
-        },
-    },
-}
+    }
 
 # ==========================================
 # Entity Factory

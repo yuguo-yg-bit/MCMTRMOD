@@ -4,16 +4,6 @@
     1,
     0
   ],
-  "mtr:airplane_node": {
-    "sound": "stone",
-    "textures": "airplane_node",
-    "netease_model": "mtr:airplane_node",
-    "client_entity": {
-      "identifier": "mtr:rendering",
-      "hand_model_use_client_entity": true,
-      "block_icon": "airplane_node"
-    }
-  },
   "mtr:apg_door": {
     "sound": "stone",
     "textures": "apg_door",
@@ -82,36 +72,6 @@
       "identifier": "mtr:rendering",
       "hand_model_use_client_entity": true,
       "block_icon": "boat_node"
-    }
-  },
-  "mtr:cable_car_node_lower": {
-    "sound": "stone",
-    "textures": "cable_car_node_lower",
-    "netease_model": "mtr:cable_car_node_lower",
-    "client_entity": {
-      "identifier": "mtr:rendering",
-      "hand_model_use_client_entity": true,
-      "block_icon": "cable_car_node_lower"
-    }
-  },
-  "mtr:cable_car_node_station": {
-    "sound": "stone",
-    "textures": "cable_car_node_station",
-    "netease_model": "mtr:cable_car_node_station",
-    "client_entity": {
-      "identifier": "mtr:rendering",
-      "hand_model_use_client_entity": true,
-      "block_icon": "cable_car_node_station"
-    }
-  },
-  "mtr:cable_car_node_upper": {
-    "sound": "stone",
-    "textures": "cable_car_node_upper",
-    "netease_model": "mtr:cable_car_node_upper",
-    "client_entity": {
-      "identifier": "mtr:rendering",
-      "hand_model_use_client_entity": true,
-      "block_icon": "cable_car_node_upper"
     }
   },
   "mtr:ceiling": {

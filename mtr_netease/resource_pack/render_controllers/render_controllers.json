@@ -37,17 +37,6 @@
         "Texture.default"
       ]
     },
-    "controller.render.mtr.cable_car": {
-      "geometry": "Geometry.default",
-      "materials": [
-        {
-          "*": "Material.default"
-        }
-      ],
-      "textures": [
-        "Texture.default"
-      ]
-    },
     "controller.render.mtr.lift": {
       "geometry": "Geometry.default",
       "materials": [

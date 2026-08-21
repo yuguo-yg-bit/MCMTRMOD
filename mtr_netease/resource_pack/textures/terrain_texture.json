@@ -4,9 +4,6 @@
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
-    "airplane_node": {
-      "textures": "textures/blocks/airplane_node"
-    },
     "apg_door": {
       "textures": "textures/blocks/apg_door"
     },
@@ -27,15 +24,6 @@
     },
     "boat_node": {
       "textures": "textures/blocks/boat_node"
-    },
-    "cable_car_node_lower": {
-      "textures": "textures/blocks/cable_car_node_lower"
-    },
-    "cable_car_node_station": {
-      "textures": "textures/blocks/cable_car_node_station"
-    },
-    "cable_car_node_upper": {
-      "textures": "textures/blocks/cable_car_node_upper"
     },
     "ceiling": {
       "textures": "textures/blocks/ceiling"

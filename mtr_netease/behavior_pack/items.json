@@ -1,825 +1,764 @@
 ﻿{
-    "mtr:airplane_node":  {
-                              "category":  "Construction",
-                              "max_stack_size":  64
-                          },
-    "mtr:apg_door":  {
-                         "category":  "Construction",
-                         "max_stack_size":  64
-                     },
-    "mtr:apg_glass":  {
-                          "category":  "Construction",
-                          "max_stack_size":  64
-                      },
-    "mtr:apg_glass_end":  {
-                              "category":  "Construction",
-                              "max_stack_size":  64
-                          },
-    "mtr:arrival_projector_1_large":  {
-                                          "category":  "Construction",
-                                          "max_stack_size":  64
-                                      },
-    "mtr:arrival_projector_1_medium":  {
-                                           "category":  "Construction",
-                                           "max_stack_size":  64
-                                       },
-    "mtr:arrival_projector_1_small":  {
-                                          "category":  "Construction",
-                                          "max_stack_size":  64
-                                      },
-    "mtr:boat_node":  {
-                          "category":  "Construction",
-                          "max_stack_size":  64
-                      },
-    "mtr:cable_car_node_lower":  {
-                                     "category":  "Construction",
-                                     "max_stack_size":  64
-                                 },
-    "mtr:cable_car_node_station":  {
-                                       "category":  "Construction",
-                                       "max_stack_size":  64
-                                   },
-    "mtr:cable_car_node_upper":  {
-                                     "category":  "Construction",
-                                     "max_stack_size":  64
-                                 },
-    "mtr:ceiling":  {
-                        "category":  "Construction",
-                        "max_stack_size":  64
-                    },
-    "mtr:ceiling_light":  {
-                              "category":  "Construction",
-                              "max_stack_size":  64
-                          },
-    "mtr:ceiling_no_light":  {
-                                 "category":  "Construction",
-                                 "max_stack_size":  64
-                             },
-    "mtr:clock":  {
-                      "category":  "Construction",
-                      "max_stack_size":  64
-                  },
-    "mtr:clock_pole":  {
-                           "category":  "Construction",
-                           "max_stack_size":  64
-                       },
-    "mtr:escalator_side":  {
-                               "category":  "Construction",
-                               "max_stack_size":  64
-                           },
-    "mtr:escalator_step":  {
-                               "category":  "Construction",
-                               "max_stack_size":  64
-                           },
-    "mtr:eye_candy":  {
-                          "category":  "Construction",
-                          "max_stack_size":  64
-                      },
-    "mtr:lift_buttons_1":  {
-                               "category":  "Construction",
-                               "max_stack_size":  64
-                           },
-    "mtr:lift_door_1":  {
-                            "category":  "Construction",
-                            "max_stack_size":  64
-                        },
-    "mtr:lift_door_odd_1":  {
-                                "category":  "Construction",
-                                "max_stack_size":  64
-                            },
-    "mtr:lift_panel_even_1":  {
-                                  "category":  "Construction",
-                                  "max_stack_size":  64
-                              },
-    "mtr:lift_panel_even_2":  {
-                                  "category":  "Construction",
-                                  "max_stack_size":  64
-                              },
-    "mtr:lift_panel_odd_1":  {
-                                 "category":  "Construction",
-                                 "max_stack_size":  64
-                             },
-    "mtr:lift_panel_odd_2":  {
-                                 "category":  "Construction",
-                                 "max_stack_size":  64
-                             },
-    "mtr:lift_track_1":  {
-                             "category":  "Construction",
-                             "max_stack_size":  64
-                         },
-    "mtr:lift_track_diagonal_1":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64
-                                  },
-    "mtr:lift_track_floor_1":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:lift_track_horizontal_1":  {
-                                        "category":  "Construction",
-                                        "max_stack_size":  64
-                                    },
-    "mtr:logo":  {
-                     "category":  "Construction",
-                     "max_stack_size":  64
-                 },
-    "mtr:marble_blue":  {
-                            "category":  "Construction",
-                            "max_stack_size":  64
-                        },
-    "mtr:marble_blue_low":  {
-                                "category":  "Construction",
-                                "max_stack_size":  64
-                            },
-    "mtr:marble_blue_middle":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:marble_blue_tall":  {
-                                 "category":  "Construction",
-                                 "max_stack_size":  64
-                             },
-    "mtr:marble_blue_tile":  {
-                                 "category":  "Construction",
-                                 "max_stack_size":  64
-                             },
-    "mtr:marble_blue_very_tall":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64
-                                  },
-    "mtr:marble_blue_very_very_tall":  {
-                                           "category":  "Construction",
-                                           "max_stack_size":  64
-                                       },
-    "mtr:pids_1":  {
-                       "category":  "Construction",
-                       "max_stack_size":  64
-                   },
-    "mtr:pids_2":  {
-                       "category":  "Construction",
-                       "max_stack_size":  64
-                   },
-    "mtr:pids_3":  {
-                       "category":  "Construction",
-                       "max_stack_size":  64
-                   },
-    "mtr:pids_4":  {
-                       "category":  "Construction",
-                       "max_stack_size":  64
-                   },
-    "mtr:pids_pole":  {
-                          "category":  "Construction",
-                          "max_stack_size":  64
-                      },
-    "mtr:pids_single_arrival_1":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64
-                                  },
-    "mtr:pids_top":  {
-                         "category":  "Construction",
-                         "max_stack_size":  64
-                     },
-    "mtr:pids_top_2":  {
-                           "category":  "Construction",
-                           "max_stack_size":  64
-                       },
-    "mtr:pids_top_3":  {
-                           "category":  "Construction",
-                           "max_stack_size":  64
-                       },
-    "mtr:pids_top_4":  {
-                           "category":  "Construction",
-                           "max_stack_size":  64
-                       },
-    "mtr:platform":  {
-                         "category":  "Construction",
-                         "max_stack_size":  64
-                     },
-    "mtr:platform_indented":  {
-                                  "category":  "Construction",
-                                  "max_stack_size":  64
-                              },
-    "mtr:platform_na_1":  {
-                              "category":  "Construction",
-                              "max_stack_size":  64
-                          },
-    "mtr:platform_na_1_indented":  {
-                                       "category":  "Construction",
-                                       "max_stack_size":  64
-                                   },
-    "mtr:platform_na_1_slab":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:platform_na_2":  {
-                              "category":  "Construction",
-                              "max_stack_size":  64
-                          },
-    "mtr:platform_na_2_indented":  {
-                                       "category":  "Construction",
-                                       "max_stack_size":  64
-                                   },
-    "mtr:platform_na_2_slab":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:platform_slab":  {
-                              "category":  "Construction",
-                              "max_stack_size":  64
-                          },
-    "mtr:platform_uk_1":  {
-                              "category":  "Construction",
-                              "max_stack_size":  64
-                          },
-    "mtr:platform_uk_1_indented":  {
-                                       "category":  "Construction",
-                                       "max_stack_size":  64
-                                   },
-    "mtr:platform_uk_1_slab":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:psd_door":  {
-                         "category":  "Construction",
-                         "max_stack_size":  64
-                     },
-    "mtr:psd_door_2":  {
-                           "category":  "Construction",
-                           "max_stack_size":  64
-                       },
-    "mtr:psd_glass":  {
-                          "category":  "Construction",
-                          "max_stack_size":  64
-                      },
-    "mtr:psd_glass_2":  {
-                            "category":  "Construction",
-                            "max_stack_size":  64
-                        },
-    "mtr:psd_glass_end":  {
-                              "category":  "Construction",
-                              "max_stack_size":  64
-                          },
-    "mtr:psd_glass_end_2":  {
-                                "category":  "Construction",
-                                "max_stack_size":  64
-                            },
-    "mtr:psd_top":  {
-                        "category":  "Construction",
-                        "max_stack_size":  64
-                    },
-    "mtr:rail":  {
-                     "category":  "Construction",
-                     "max_stack_size":  64
-                 },
-    "mtr:railway_sign_2_even":  {
-                                    "category":  "Construction",
-                                    "max_stack_size":  64
-                                },
-    "mtr:railway_sign_2_odd":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:railway_sign_3_even":  {
-                                    "category":  "Construction",
-                                    "max_stack_size":  64
-                                },
-    "mtr:railway_sign_3_odd":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:railway_sign_4_even":  {
-                                    "category":  "Construction",
-                                    "max_stack_size":  64
-                                },
-    "mtr:railway_sign_4_odd":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:railway_sign_5_even":  {
-                                    "category":  "Construction",
-                                    "max_stack_size":  64
-                                },
-    "mtr:railway_sign_5_odd":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:railway_sign_6_even":  {
-                                    "category":  "Construction",
-                                    "max_stack_size":  64
-                                },
-    "mtr:railway_sign_6_odd":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:railway_sign_7_even":  {
-                                    "category":  "Construction",
-                                    "max_stack_size":  64
-                                },
-    "mtr:railway_sign_7_odd":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:railway_sign_middle":  {
-                                    "category":  "Construction",
-                                    "max_stack_size":  64
-                                },
-    "mtr:railway_sign_pole":  {
-                                  "category":  "Construction",
-                                  "max_stack_size":  64
-                              },
-    "mtr:resource_pack_creator":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64
-                                  },
-    "mtr:route_sign_standing_light":  {
-                                          "category":  "Construction",
-                                          "max_stack_size":  64
-                                      },
-    "mtr:route_sign_standing_metal":  {
-                                          "category":  "Construction",
-                                          "max_stack_size":  64
-                                      },
-    "mtr:route_sign_wall_light":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64
-                                  },
-    "mtr:route_sign_wall_metal":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64
-                                  },
-    "mtr:signal_light_1":  {
-                               "category":  "Construction",
-                               "max_stack_size":  64
-                           },
-    "mtr:signal_light_2":  {
-                               "category":  "Construction",
-                               "max_stack_size":  64
-                           },
-    "mtr:signal_light_3":  {
-                               "category":  "Construction",
-                               "max_stack_size":  64
-                           },
-    "mtr:signal_light_3_aspect_1":  {
-                                        "category":  "Construction",
-                                        "max_stack_size":  64
-                                    },
-    "mtr:signal_light_3_aspect_2":  {
-                                        "category":  "Construction",
-                                        "max_stack_size":  64
-                                    },
-    "mtr:signal_light_4":  {
-                               "category":  "Construction",
-                               "max_stack_size":  64
-                           },
-    "mtr:signal_light_4_aspect_1":  {
-                                        "category":  "Construction",
-                                        "max_stack_size":  64
-                                    },
-    "mtr:signal_light_4_aspect_2":  {
-                                        "category":  "Construction",
-                                        "max_stack_size":  64
-                                    },
-    "mtr:signal_pole":  {
-                            "category":  "Construction",
-                            "max_stack_size":  64
-                        },
-    "mtr:signal_semaphore_1":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:signal_semaphore_2":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:station_color_andesite":  {
-                                       "category":  "Construction",
-                                       "max_stack_size":  64
-                                   },
-    "mtr:station_color_bedrock":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64
-                                  },
-    "mtr:station_color_birch_wood":  {
-                                         "category":  "Construction",
-                                         "max_stack_size":  64
-                                     },
-    "mtr:station_color_bone_block":  {
-                                         "category":  "Construction",
-                                         "max_stack_size":  64
-                                     },
-    "mtr:station_color_chiseled_quartz_block":  {
-                                                    "category":  "Construction",
-                                                    "max_stack_size":  64
-                                                },
-    "mtr:station_color_chiseled_stone_bricks":  {
-                                                    "category":  "Construction",
-                                                    "max_stack_size":  64
-                                                },
-    "mtr:station_color_clay":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:station_color_coal_ore":  {
-                                       "category":  "Construction",
-                                       "max_stack_size":  64
-                                   },
-    "mtr:station_color_cobblestone":  {
-                                          "category":  "Construction",
-                                          "max_stack_size":  64
-                                      },
-    "mtr:station_color_concrete":  {
-                                       "category":  "Construction",
-                                       "max_stack_size":  64
-                                   },
-    "mtr:station_color_concrete_powder":  {
-                                              "category":  "Construction",
-                                              "max_stack_size":  64
-                                          },
-    "mtr:station_color_cracked_stone_bricks":  {
-                                                   "category":  "Construction",
-                                                   "max_stack_size":  64
-                                               },
-    "mtr:station_color_dark_prismarine":  {
-                                              "category":  "Construction",
-                                              "max_stack_size":  64
-                                          },
-    "mtr:station_color_diorite":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64
-                                  },
-    "mtr:station_color_gravel":  {
-                                     "category":  "Construction",
-                                     "max_stack_size":  64
-                                 },
-    "mtr:station_color_iron_block":  {
-                                         "category":  "Construction",
-                                         "max_stack_size":  64
-                                     },
-    "mtr:station_color_metal":  {
-                                    "category":  "Construction",
-                                    "max_stack_size":  64
-                                },
-    "mtr:station_color_mossy_stone_bricks":  {
-                                                 "category":  "Construction",
-                                                 "max_stack_size":  64
-                                             },
-    "mtr:station_color_packed_ice":  {
-                                         "category":  "Construction",
-                                         "max_stack_size":  64
-                                     },
-    "mtr:station_color_planks":  {
-                                     "category":  "Construction",
-                                     "max_stack_size":  64
-                                 },
-    "mtr:station_color_polished_andesite":  {
-                                                "category":  "Construction",
-                                                "max_stack_size":  64
-                                            },
-    "mtr:station_color_polished_diorite":  {
-                                               "category":  "Construction",
-                                               "max_stack_size":  64
-                                           },
-    "mtr:station_color_polished_granite":  {
-                                               "category":  "Construction",
-                                               "max_stack_size":  64
-                                           },
-    "mtr:station_color_prismarine":  {
-                                         "category":  "Construction",
-                                         "max_stack_size":  64
-                                     },
-    "mtr:station_color_purpur_block":  {
-                                           "category":  "Construction",
-                                           "max_stack_size":  64
-                                       },
-    "mtr:station_color_purpur_pillar":  {
-                                            "category":  "Construction",
-                                            "max_stack_size":  64
-                                        },
-    "mtr:station_color_quartz_block":  {
-                                           "category":  "Construction",
-                                           "max_stack_size":  64
-                                       },
-    "mtr:station_color_quartz_bricks":  {
-                                            "category":  "Construction",
-                                            "max_stack_size":  64
-                                        },
-    "mtr:station_color_quartz_pillar":  {
-                                            "category":  "Construction",
-                                            "max_stack_size":  64
-                                        },
-    "mtr:station_color_red_sandstone":  {
-                                            "category":  "Construction",
-                                            "max_stack_size":  64
-                                        },
-    "mtr:station_color_sandstone":  {
-                                        "category":  "Construction",
-                                        "max_stack_size":  64
-                                    },
-    "mtr:station_color_smooth_quartz":  {
-                                            "category":  "Construction",
-                                            "max_stack_size":  64
-                                        },
-    "mtr:station_color_smooth_stone":  {
-                                           "category":  "Construction",
-                                           "max_stack_size":  64
-                                       },
-    "mtr:station_color_snow":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:station_color_stone":  {
-                                    "category":  "Construction",
-                                    "max_stack_size":  64
-                                },
-    "mtr:station_color_stone_bricks":  {
-                                           "category":  "Construction",
-                                           "max_stack_size":  64
-                                       },
-    "mtr:station_color_wool":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64
-                               },
-    "mtr:station_name_entrance":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64
-                                  },
-    "mtr:station_name_tall_block":  {
-                                        "category":  "Construction",
-                                        "max_stack_size":  64
-                                    },
-    "mtr:station_name_tall_block_double_sided":  {
-                                                     "category":  "Construction",
-                                                     "max_stack_size":  64
-                                                 },
-    "mtr:station_name_tall_standing":  {
-                                           "category":  "Construction",
-                                           "max_stack_size":  64
-                                       },
-    "mtr:station_name_tall_wall":  {
-                                       "category":  "Construction",
-                                       "max_stack_size":  64
-                                   },
-    "mtr:station_name_wall":  {
-                                  "category":  "Construction",
-                                  "max_stack_size":  64
-                              },
-    "mtr:station_name_wall_black":  {
-                                        "category":  "Construction",
-                                        "max_stack_size":  64
-                                    },
-    "mtr:station_name_wall_gray":  {
-                                       "category":  "Construction",
-                                       "max_stack_size":  64
-                                   },
-    "mtr:ticket_barrier_entrance_1":  {
-                                          "category":  "Construction",
-                                          "max_stack_size":  64
-                                      },
-    "mtr:ticket_barrier_exit_1":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64
-                                  },
-    "mtr:ticket_barrier_side_1":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64
-                                  },
-    "mtr:ticket_machine":  {
-                               "category":  "Construction",
-                               "max_stack_size":  64
-                           },
-    "mtr:ticket_processor":  {
-                                 "category":  "Construction",
-                                 "max_stack_size":  64
-                             },
-    "mtr:ticket_processor_enquiry":  {
-                                         "category":  "Construction",
-                                         "max_stack_size":  64
-                                     },
-    "mtr:ticket_processor_entrance":  {
-                                          "category":  "Construction",
-                                          "max_stack_size":  64
-                                      },
-    "mtr:ticket_processor_exit":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64
-                                  },
-    "mtr:train_announcer":  {
-                                "category":  "Items",
-                                "max_stack_size":  1,
-                                "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_announcer\"\r\n}"
-                            },
-    "mtr:train_cargo_loader":  {
-                                   "category":  "Construction",
-                                   "max_stack_size":  64,
-                                   "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_cargo_loader\"\r\n}"
-                               },
-    "mtr:train_cargo_unloader":  {
-                                     "category":  "Construction",
-                                     "max_stack_size":  64,
-                                     "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_cargo_unloader\"\r\n}"
-                                 },
-    "mtr:train_redstone_sensor":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64,
-                                      "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_redstone_sensor\"\r\n}"
-                                  },
-    "mtr:train_redstone_sensor_2":  {
-                                        "category":  "Construction",
-                                        "max_stack_size":  64,
-                                        "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_redstone_sensor_2\"\r\n}"
-                                    },
-    "mtr:train_schedule_sensor":  {
-                                      "category":  "Construction",
-                                      "max_stack_size":  64,
-                                      "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_schedule_sensor\"\r\n}"
-                                  },
-    "mtr:boat_medium":  {
-                            "category":  "Items",
-                            "max_stack_size":  1,
-                            "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:boat_medium\"\r\n}"
-                        },
-    "mtr:boat_small":  {
-                           "category":  "Items",
-                           "max_stack_size":  1,
-                           "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:boat_small\"\r\n}"
-                       },
-    "mtr:cable_car_grip":  {
-                               "category":  "Items",
-                               "max_stack_size":  1,
-                               "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:cable_car_grip\"\r\n}"
-                           },
-    "mtr:cable_car_ngong_ping_360":  {
-                                         "category":  "Items",
-                                         "max_stack_size":  1,
-                                         "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:cable_car_ngong_ping_360\"\r\n}"
-                                     },
-    "mtr:lift_1":  {
-                       "category":  "Items",
-                       "max_stack_size":  1
-                   },
-    "mtr:minecart":  {
-                         "category":  "Items",
-                         "max_stack_size":  1,
-                         "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:minecart\"\r\n}"
-                     },
-    "mtr:train_a320":  {
-                           "category":  "Items",
-                           "max_stack_size":  1,
-                           "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_a320\"\r\n}"
-                       },
-    "mtr:train_a_train":  {
-                              "category":  "Items",
-                              "max_stack_size":  1,
-                              "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_a_train\"\r\n}"
-                          },
-    "mtr:train_br_423":  {
-                             "category":  "Items",
-                             "max_stack_size":  1,
-                             "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_br_423\"\r\n}"
-                         },
-    "mtr:train_class_345":  {
-                                "category":  "Items",
-                                "max_stack_size":  1,
-                                "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_class_345\"\r\n}"
-                            },
-    "mtr:train_class_377":  {
-                                "category":  "Items",
-                                "max_stack_size":  1,
-                                "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_class_377\"\r\n}"
-                            },
-    "mtr:train_class_802":  {
-                                "category":  "Items",
-                                "max_stack_size":  1,
-                                "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_class_802\"\r\n}"
-                            },
-    "mtr:train_cm_stock":  {
-                               "category":  "Items",
-                               "max_stack_size":  1,
-                               "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_cm_stock\"\r\n}"
-                           },
-    "mtr:train_c_train":  {
-                              "category":  "Items",
-                              "max_stack_size":  1,
-                              "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_c_train\"\r\n}"
-                          },
-    "mtr:train_drl":  {
-                          "category":  "Items",
-                          "max_stack_size":  1,
-                          "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_drl\"\r\n}"
-                      },
-    "mtr:train_e44":  {
-                          "category":  "Items",
-                          "max_stack_size":  1,
-                          "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_e44\"\r\n}"
-                      },
-    "mtr:train_eidan_9000":  {
-                                 "category":  "Items",
-                                 "max_stack_size":  1,
-                                 "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_eidan_9000\"\r\n}"
-                             },
-    "mtr:train_kcr_christmas":  {
-                                    "category":  "Items",
-                                    "max_stack_size":  1,
-                                    "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_kcr_christmas\"\r\n}"
-                                },
-    "mtr:train_k_train":  {
-                              "category":  "Items",
-                              "max_stack_size":  1,
-                              "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_k_train\"\r\n}"
-                          },
-    "mtr:train_light_rail":  {
-                                 "category":  "Items",
-                                 "max_stack_size":  1,
-                                 "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_light_rail\"\r\n}"
-                             },
-    "mtr:train_london_underground_1938":  {
-                                              "category":  "Items",
-                                              "max_stack_size":  1,
-                                              "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_london_underground_1938\"\r\n}"
-                                          },
-    "mtr:train_london_underground_1995":  {
-                                              "category":  "Items",
-                                              "max_stack_size":  1,
-                                              "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_london_underground_1995\"\r\n}"
-                                          },
-    "mtr:train_london_underground_d78":  {
-                                             "category":  "Items",
-                                             "max_stack_size":  1,
-                                             "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_london_underground_d78\"\r\n}"
-                                         },
-    "mtr:train_london_underground_s7":  {
-                                            "category":  "Items",
-                                            "max_stack_size":  1,
-                                            "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_london_underground_s7\"\r\n}"
-                                        },
-    "mtr:train_mlr":  {
-                          "category":  "Items",
-                          "max_stack_size":  1,
-                          "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_mlr\"\r\n}"
-                      },
-    "mtr:train_mpl_16":  {
-                             "category":  "Items",
-                             "max_stack_size":  1,
-                             "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_mpl_16\"\r\n}"
-                         },
-    "mtr:train_mpl_85":  {
-                             "category":  "Items",
-                             "max_stack_size":  1,
-                             "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_mpl_85\"\r\n}"
-                         },
-    "mtr:train_m_train":  {
-                              "category":  "Items",
-                              "max_stack_size":  1,
-                              "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_m_train\"\r\n}"
-                          },
-    "mtr:train_r179":  {
-                           "category":  "Items",
-                           "max_stack_size":  1,
-                           "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_r179\"\r\n}"
-                       },
-    "mtr:train_r211":  {
-                           "category":  "Items",
-                           "max_stack_size":  1,
-                           "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_r211\"\r\n}"
-                       },
-    "mtr:train_r_train":  {
-                              "category":  "Items",
-                              "max_stack_size":  1,
-                              "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_r_train\"\r\n}"
-                          },
-    "mtr:train_s700":  {
-                           "category":  "Items",
-                           "max_stack_size":  1,
-                           "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_s700\"\r\n}"
-                       },
-    "mtr:train_sensor":  {
-                             "category":  "Items",
-                             "max_stack_size":  1,
-                             "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_sensor\"\r\n}"
-                         },
-    "mtr:train_sp1900":  {
-                             "category":  "Items",
-                             "max_stack_size":  1,
-                             "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_sp1900\"\r\n}"
-                         },
-    "mtr:train_s_train":  {
-                              "category":  "Items",
-                              "max_stack_size":  1,
-                              "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:train_s_train\"\r\n}"
-                          },
-    "mtr:airplane":  {
-                         "category":  "Items",
-                         "max_stack_size":  1,
-                         "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:airplane\"\r\n}"
-                     },
-    "mtr:boat_vehicle":  {
-                             "category":  "Items",
-                             "max_stack_size":  1,
-                             "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:boat_vehicle\"\r\n}"
-                         },
-    "mtr:cable_car":  {
-                          "category":  "Items",
-                          "max_stack_size":  1,
-                          "minecraft:spawn_egg":  "{\r\n    \"entity\":  \"mtr:cable_car\"\r\n}"
-                      }
+  "mtr:apg_door": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:apg_glass": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:apg_glass_end": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:arrival_projector_1_large": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:arrival_projector_1_medium": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:arrival_projector_1_small": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:boat_node": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:ceiling": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:ceiling_light": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:ceiling_no_light": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:clock": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:clock_pole": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:escalator_side": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:escalator_step": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:eye_candy": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:lift_buttons_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:lift_door_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:lift_door_odd_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:lift_panel_even_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:lift_panel_even_2": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:lift_panel_odd_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:lift_panel_odd_2": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:lift_track_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:lift_track_diagonal_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:lift_track_floor_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:lift_track_horizontal_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:logo": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:marble_blue": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:marble_blue_low": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:marble_blue_middle": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:marble_blue_tall": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:marble_blue_tile": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:marble_blue_very_tall": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:marble_blue_very_very_tall": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:pids_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:pids_2": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:pids_3": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:pids_4": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:pids_pole": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:pids_single_arrival_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:pids_top": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:pids_top_2": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:pids_top_3": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:pids_top_4": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:platform": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:platform_indented": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:platform_na_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:platform_na_1_indented": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:platform_na_1_slab": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:platform_na_2": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:platform_na_2_indented": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:platform_na_2_slab": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:platform_slab": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:platform_uk_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:platform_uk_1_indented": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:platform_uk_1_slab": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:psd_door": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:psd_door_2": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:psd_glass": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:psd_glass_2": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:psd_glass_end": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:psd_glass_end_2": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:psd_top": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:rail": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_2_even": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_2_odd": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_3_even": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_3_odd": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_4_even": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_4_odd": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_5_even": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_5_odd": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_6_even": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_6_odd": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_7_even": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_7_odd": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_middle": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:railway_sign_pole": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:resource_pack_creator": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:route_sign_standing_light": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:route_sign_standing_metal": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:route_sign_wall_light": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:route_sign_wall_metal": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:signal_light_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:signal_light_2": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:signal_light_3": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:signal_light_3_aspect_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:signal_light_3_aspect_2": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:signal_light_4": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:signal_light_4_aspect_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:signal_light_4_aspect_2": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:signal_pole": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:signal_semaphore_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:signal_semaphore_2": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_andesite": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_bedrock": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_birch_wood": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_bone_block": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_chiseled_quartz_block": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_chiseled_stone_bricks": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_clay": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_coal_ore": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_cobblestone": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_concrete": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_concrete_powder": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_cracked_stone_bricks": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_dark_prismarine": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_diorite": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_gravel": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_iron_block": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_metal": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_mossy_stone_bricks": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_packed_ice": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_planks": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_polished_andesite": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_polished_diorite": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_polished_granite": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_prismarine": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_purpur_block": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_purpur_pillar": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_quartz_block": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_quartz_bricks": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_quartz_pillar": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_red_sandstone": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_sandstone": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_smooth_quartz": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_smooth_stone": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_snow": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_stone": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_stone_bricks": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_color_wool": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_name_entrance": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_name_tall_block": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_name_tall_block_double_sided": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_name_tall_standing": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_name_tall_wall": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_name_wall": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_name_wall_black": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:station_name_wall_gray": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:ticket_barrier_entrance_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:ticket_barrier_exit_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:ticket_barrier_side_1": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:ticket_machine": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:ticket_processor": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:ticket_processor_enquiry": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:ticket_processor_entrance": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:ticket_processor_exit": {
+    "category": "Construction",
+    "max_stack_size": 64
+  },
+  "mtr:train_announcer": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_announcer\"\r\n}"
+  },
+  "mtr:train_cargo_loader": {
+    "category": "Construction",
+    "max_stack_size": 64,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_cargo_loader\"\r\n}"
+  },
+  "mtr:train_cargo_unloader": {
+    "category": "Construction",
+    "max_stack_size": 64,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_cargo_unloader\"\r\n}"
+  },
+  "mtr:train_redstone_sensor": {
+    "category": "Construction",
+    "max_stack_size": 64,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_redstone_sensor\"\r\n}"
+  },
+  "mtr:train_redstone_sensor_2": {
+    "category": "Construction",
+    "max_stack_size": 64,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_redstone_sensor_2\"\r\n}"
+  },
+  "mtr:train_schedule_sensor": {
+    "category": "Construction",
+    "max_stack_size": 64,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_schedule_sensor\"\r\n}"
+  },
+  "mtr:lift_1": {
+    "category": "Items",
+    "max_stack_size": 1
+  },
+  "mtr:train_a_train": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_a_train\"\r\n}"
+  },
+  "mtr:train_br_423": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_br_423\"\r\n}"
+  },
+  "mtr:train_class_345": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_class_345\"\r\n}"
+  },
+  "mtr:train_class_377": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_class_377\"\r\n}"
+  },
+  "mtr:train_class_802": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_class_802\"\r\n}"
+  },
+  "mtr:train_cm_stock": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_cm_stock\"\r\n}"
+  },
+  "mtr:train_c_train": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_c_train\"\r\n}"
+  },
+  "mtr:train_drl": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_drl\"\r\n}"
+  },
+  "mtr:train_e44": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_e44\"\r\n}"
+  },
+  "mtr:train_eidan_9000": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_eidan_9000\"\r\n}"
+  },
+  "mtr:train_kcr_christmas": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_kcr_christmas\"\r\n}"
+  },
+  "mtr:train_k_train": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_k_train\"\r\n}"
+  },
+  "mtr:train_light_rail": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_light_rail\"\r\n}"
+  },
+  "mtr:train_london_underground_1938": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_london_underground_1938\"\r\n}"
+  },
+  "mtr:train_london_underground_1995": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_london_underground_1995\"\r\n}"
+  },
+  "mtr:train_london_underground_d78": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_london_underground_d78\"\r\n}"
+  },
+  "mtr:train_london_underground_s7": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_london_underground_s7\"\r\n}"
+  },
+  "mtr:train_mlr": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_mlr\"\r\n}"
+  },
+  "mtr:train_mpl_16": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_mpl_16\"\r\n}"
+  },
+  "mtr:train_mpl_85": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_mpl_85\"\r\n}"
+  },
+  "mtr:train_m_train": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_m_train\"\r\n}"
+  },
+  "mtr:train_r179": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_r179\"\r\n}"
+  },
+  "mtr:train_r211": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_r211\"\r\n}"
+  },
+  "mtr:train_r_train": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_r_train\"\r\n}"
+  },
+  "mtr:train_s700": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_s700\"\r\n}"
+  },
+  "mtr:train_sensor": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_sensor\"\r\n}"
+  },
+  "mtr:train_sp1900": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_sp1900\"\r\n}"
+  },
+  "mtr:train_s_train": {
+    "category": "Items",
+    "max_stack_size": 1,
+    "minecraft:spawn_egg": "{\r\n    \"entity\":  \"mtr:train_s_train\"\r\n}"
+  }
 }

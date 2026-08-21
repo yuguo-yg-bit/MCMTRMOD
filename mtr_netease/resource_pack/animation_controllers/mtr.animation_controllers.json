@@ -34,38 +34,6 @@
         }
       }
     },
-    "controller.animation.mtr.cable_car": {
-      "initial_state": "default",
-      "states": {
-        "default": {
-          "animations": [
-            "move",
-            "door"
-          ],
-          "transitions": [
-            {
-              "default": "1"
-            }
-          ]
-        }
-      }
-    },
-    "controller.animation.mtr.airplane": {
-      "initial_state": "default",
-      "states": {
-        "default": {
-          "animations": [
-            "move",
-            "door"
-          ],
-          "transitions": [
-            {
-              "default": "1"
-            }
-          ]
-        }
-      }
-    },
     "controller.animation.mtr.lift": {
       "initial_state": "default",
       "states": {

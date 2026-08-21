@@ -314,7 +314,7 @@ class MTRServerSystem(serverApi.ServerSystem):
     def _on_spawn_train_command(self, player_id, args):
         """Handle /mtr_spawn_train command"""
         if not args:
-            self.NotifyToClient(player_id, "MtrChatMessage", {"message": "用法: /mtr_spawn_train <类型> 如: sp1900"})
+            self.NotifyToClient(player_id, "MtrChatMessage", {"message": "用法: /mtr_spawn_train <类型> 如: crt6"})
             return
         train_type_key = args[0].lower()
         train_type = "mtr:train_" + train_type_key
@@ -341,7 +341,7 @@ class MTRServerSystem(serverApi.ServerSystem):
     def _on_depot_generate(self, event):
         """Handle depot generation (from Java PacketDepotGenerate / DepotOperationByName)"""
         depot_name = event.get("depotName", "")
-        train_type = event.get("trainType", "mtr:train_sp1900")
+        train_type = event.get("trainType", "mtr:train_crt6")
         pos = event.get("position", (0, 0, 0))
         dimension = event.get("dimension", 0)
         train_id = "depot_%s_%d" % (depot_name, len(self.active_trains))
@@ -376,7 +376,7 @@ class MTRServerSystem(serverApi.ServerSystem):
     def _on_depot_instant_deploy(self, event):
         """Handle instant depot deployment (from Java PacketDepotInstantDeploy)"""
         depot_name = event.get("depotName", "")
-        train_type = event.get("trainType", "mtr:train_sp1900")
+        train_type = event.get("trainType", "mtr:train_crt6")
         pos = event.get("position", (0, 0, 0))
         dimension = event.get("dimension", 0)
         train_id = "depot_%s_%d" % (depot_name, len(self.active_trains))

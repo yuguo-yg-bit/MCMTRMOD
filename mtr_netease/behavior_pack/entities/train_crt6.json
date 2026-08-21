@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "mtr:train_e44",
+      "identifier": "mtr:train_crt6",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false

@@ -158,6 +158,132 @@
               1
             ]
           }
+        },
+        "door_left_outside": {
+          "position": {
+            "0.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        },
+        "door_right_outside": {
+          "position": {
+            "0.0": [
+              "query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        },
+        "door_handrail": {
+          "position": {
+            "0.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ],
+            "1.0": [
+              "-query.mod.door_progress",
+              0,
+              0
+            ]
+          }
+        },
+        "door_light_on_outside": {
+          "scale": {
+            "0.0": [
+              1,
+              1,
+              1
+            ],
+            "1.0": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "door_light_on_inside": {
+          "scale": {
+            "0.0": [
+              1,
+              1,
+              1
+            ],
+            "1.0": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "door_light_off_outside": {
+          "scale": {
+            "0.0": [
+              1,
+              1,
+              1
+            ],
+            "1.0": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "door_light_off_inside": {
+          "scale": {
+            "0.0": [
+              1,
+              1,
+              1
+            ],
+            "1.0": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "door_light_neverlight": {
+          "scale": {
+            "0.0": [
+              1,
+              1,
+              1
+            ],
+            "1.0": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "roof_end_light": {
+          "scale": {
+            "0.0": [
+              1,
+              1,
+              1
+            ],
+            "1.0": [
+              1,
+              1,
+              1
+            ]
+          }
         }
       }
     },

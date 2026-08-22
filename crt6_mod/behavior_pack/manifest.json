@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "CRT6 Chongqing Metro Line 6",
+    "description": "重庆地铁6号线列车模组 - 最简生物蛋生成",
+    "uuid": "c1c2c3c4-d5d6-7890-abcd-ef1234567890",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 19, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "d1d2d3d4-e5e6-7890-abcd-ef1234567891",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "e1e2e3e4-f5f6-7890-abcd-ef1234567892",
+      "version": [1, 0, 0]
+    }
+  ]
+}

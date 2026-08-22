@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "crt6:spawn_egg_crt6",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:hand_equipped": false,
+      "minecraft:icon": "spawn_egg_crt6",
+      "minecraft:display_name": {
+        "value": "重庆地铁6号线生物蛋"
+      },
+      "minecraft:entity_placer": {
+        "entity": "crt6:train_crt6",
+        "use_on": ["minecraft:grass", "minecraft:stone", "minecraft:rail", "minecraft:dirt", "minecraft:sand", "minecraft:gravel", "minecraft:cobblestone"]
+      },
+      "minecraft:use_duration": 0
+    }
+  }
+}

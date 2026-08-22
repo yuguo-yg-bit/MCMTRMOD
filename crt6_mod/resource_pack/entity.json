@@ -1,0 +1,36 @@
+{
+  "format_version": [
+    1,
+    19,
+    0
+  ],
+  "crt6:train_crt6": {
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "crt6:train_crt6",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.crt6"
+        },
+        "textures": {
+          "default": "textures/entity/crt6"
+        },
+        "render_controllers": [
+          "controller.render.crt6.train"
+        ],
+        "animations": {
+          "door": "animation.crt6.train.door",
+          "move": "animation.crt6.train.move"
+        },
+        "scripts": {
+          "animate": [
+            "door",
+            "move"
+          ]
+        }
+      }
+    }
+  }
+}

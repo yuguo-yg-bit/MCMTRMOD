@@ -1,0 +1,119 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.crt6.train.door": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "door": {
+          "position": {
+            "0.0": ["-query.mod.door_progress", 0, 0],
+            "1.0": ["-query.mod.door_progress", 0, 0]
+          }
+        },
+        "door_left": {
+          "position": {
+            "0.0": ["-query.mod.door_progress", 0, 0],
+            "1.0": ["-query.mod.door_progress", 0, 0]
+          }
+        },
+        "door_right": {
+          "position": {
+            "0.0": ["query.mod.door_progress", 0, 0],
+            "1.0": ["query.mod.door_progress", 0, 0]
+          }
+        },
+        "door_left_outside": {
+          "position": {
+            "0.0": ["-query.mod.door_progress", 0, 0],
+            "1.0": ["-query.mod.door_progress", 0, 0]
+          }
+        },
+        "door_right_outside": {
+          "position": {
+            "0.0": ["query.mod.door_progress", 0, 0],
+            "1.0": ["query.mod.door_progress", 0, 0]
+          }
+        },
+        "door_exterior": {
+          "position": {
+            "0.0": ["-query.mod.door_progress", 0, 0],
+            "1.0": ["-query.mod.door_progress", 0, 0]
+          }
+        },
+        "roof_door": {
+          "position": {
+            "0.0": ["-query.mod.door_progress", 0, 0],
+            "1.0": ["-query.mod.door_progress", 0, 0]
+          }
+        },
+        "door_handrail": {
+          "position": {
+            "0.0": ["-query.mod.door_progress", 0, 0],
+            "1.0": ["-query.mod.door_progress", 0, 0]
+          }
+        },
+        "door_floor": {
+          "position": {
+            "0.0": [0, 0, 0],
+            "1.0": [0, 0, 0]
+          }
+        },
+        "doorway": {
+          "position": {
+            "0.0": [0, 0, 0],
+            "1.0": [0, 0, 0]
+          }
+        },
+        "door_light_on_outside": {
+          "scale": {
+            "0.0": [1, 1, 1],
+            "1.0": [1, 1, 1]
+          }
+        },
+        "door_light_on_inside": {
+          "scale": {
+            "0.0": [1, 1, 1],
+            "1.0": [1, 1, 1]
+          }
+        },
+        "door_light_off_outside": {
+          "scale": {
+            "0.0": [1, 1, 1],
+            "1.0": [1, 1, 1]
+          }
+        },
+        "door_light_off_inside": {
+          "scale": {
+            "0.0": [1, 1, 1],
+            "1.0": [1, 1, 1]
+          }
+        },
+        "door_light_neverlight": {
+          "scale": {
+            "0.0": [1, 1, 1],
+            "1.0": [1, 1, 1]
+          }
+        },
+        "roof_end_light": {
+          "scale": {
+            "0.0": [1, 1, 1],
+            "1.0": [1, 1, 1]
+          }
+        }
+      }
+    },
+    "animation.crt6.train.move": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "bb_main": {
+          "position": {
+            "0.0": [0, 0, 0],
+            "1.0": [0, 0, 0]
+          }
+        }
+      }
+    }
+  }
+}

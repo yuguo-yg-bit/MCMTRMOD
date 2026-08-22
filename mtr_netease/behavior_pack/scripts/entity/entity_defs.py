@@ -150,6 +150,28 @@ TRAIN_MODEL_TYPES = {
             "door": "textures/entity/train/high_speed_door.png",
         },
     },
+    "crt6": {
+        "length": 22.0,
+        "width": 2.8,
+        "height": 3.8,
+        "maxSpeed": 100.0,
+        "acceleration": 0.75,
+        "brakeForce": 1.3,
+        "doorCount": 4,
+        "doorWidth": 1.5,
+        "doorHeight": 2.0,
+        "passengerCapacity": 200,
+        "modelPaths": {
+            "train": "models/entity/crt6.geo.json",
+            "bogie": "models/entity/bogie_1.geo.json",
+            "door": "models/entity/door_overlay.geo.json",
+        },
+        "texturePaths": {
+            "exterior": "textures/entity/crt6",
+            "interior": "textures/entity/crt6",
+            "door": "textures/entity/door_overlay_crt6",
+        },
+    },
     }
 
 # ==========================================

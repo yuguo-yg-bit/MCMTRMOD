@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "CRT6 Resource Pack",
+    "description": "重庆地铁6号线资源包",
+    "uuid": "e1e2e3e4-f5f6-7890-abcd-ef1234567892",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 19, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "f1f2f3f4-a5a6-7890-abcd-ef1234567893",
+      "version": [1, 0, 0]
+    }
+  ]
+}

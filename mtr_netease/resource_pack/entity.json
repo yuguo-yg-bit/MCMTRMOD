@@ -1080,10 +1080,15 @@
           "default": "textures/entity/crt6"
         },
         "render_controllers": [
-          "controller.render.default"
+          "controller.render.mtr.train"
         ],
+        "animations": {
+          "door": "animation.mtr.train.door",
+          "move": "animation.mtr.train.move"
+        },
         "scripts": {
           "animate": [
+            "door",
             "move"
           ]
         }
